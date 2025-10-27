@@ -5,6 +5,6 @@
         "**/.hg": true,
         "**/.DS_Store": true,
         "**/Thumbs.db": true,
-        "Datapack/data/ancestral_beats/function/asset/bgm/**": true
+        "bgm/**": true
     }
 }

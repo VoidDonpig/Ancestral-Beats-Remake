@@ -1,0 +1,155 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "written_book",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_written_book_pages",
+                            "pages": [
+                                [
+                                    {
+                                        "text": "Miner Pickaxe",
+                                        "color": "black"
+                                    },
+                                    {
+                                        "text": "                   ",
+                                        "color": "black",
+                                        "strikethrough": true
+                                    },
+                                    {
+                                        "text": "■",
+                                        "color": "gray",
+                                        "extra": [
+                                            {
+                                                "translate": "item.cobblestone.name",
+                                                "color": "black",
+                                                "extra": [
+                                                    {
+                                                        "text": "×32",
+                                                        "color": "black"
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "text": "■",
+                                        "color": "gray",
+                                        "extra": [
+                                            {
+                                                "translate": "item.stick.name",
+                                                "color": "#663300",
+                                                "extra": [
+                                                    {
+                                                        "text": "×1",
+                                                        "color": "black"
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    "",
+                                    "",
+                                    "",
+                                    "",
+                                    {
+                                        "text": "                   ",
+                                        "color": "black",
+                                        "strikethrough": true
+                                    },
+                                    {
+                                        "text": "パターン",
+                                        "color": "black"
+                                    },
+                                    "",
+                                    "",
+                                    {
+                                        "text": "         ■■■",
+                                        "color": "gray"
+                                    },
+                                    {
+                                        "text": "          ■",
+                                        "color": "#663300"
+                                    },
+                                    {
+                                        "text": "          ■",
+                                        "color": "#663300"
+                                    }
+                                ]
+                            ],
+                            "mode": "replace_all"
+                        },
+                        {
+                            "function": "minecraft:set_lore",
+                            "entity": "this",
+                            "lore": [
+                                {
+                                    "text": "ビギナーシリーズの",
+                                    "color": "gray",
+                                    "italic": false
+                                },
+                                {
+                                    "text": "アイテムレシピが書いてある",
+                                    "color": "gray",
+                                    "italic": false
+                                },
+                                {
+                                    "text": "                         ",
+                                    "color": "dark_gray",
+                                    "strikethrough": true
+                                },
+                                {
+                                    "text": "‣ レシピ本",
+                                    "extra": [
+                                        {
+                                            "text": "【",
+                                            "extra": [
+                                                {
+                                                    "text": "✪",
+                                                    "color": "white",
+                                                    "extra": [
+                                                        {
+                                                            "text": "✪✪✪✪",
+                                                            "color": "dark_gray",
+                                                            "extra": [
+                                                                {
+                                                                    "text": "】",
+                                                                    "color": "white"
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ],
+                                    "color": "white",
+                                    "italic": false
+                                }
+                            ],
+                            "mode": "replace_all"
+                        },
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{donpig_ab:{asset:{item:{custom_item:1b,custom_item_id:\"beginner_series_recipe_book\"}}}}"
+                        },
+                        {
+                            "function": "minecraft:set_name",
+                            "entity": "this",
+                            "target": "item_name",
+                            "name": {
+                                "text": "ビギナーシリーズ",
+                                "color": "white",
+                                "italic": false
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

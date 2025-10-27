@@ -6,4 +6,3 @@
 
 # init
     $function ancestral_beats:asset/mob/$(id)/init/
-    $tag @s add donpig_ab.asset.mob.$(id)

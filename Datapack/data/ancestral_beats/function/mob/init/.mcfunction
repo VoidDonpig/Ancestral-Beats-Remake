@@ -43,3 +43,9 @@
     execute if entity @s[type=minecraft:zombie_villager,tag=!donpig_ab.asset.mob.special_mob] run data modify entity @s data.donpig_ab.asset.mob.id set value zombie_villager
     execute if entity @s[type=minecraft:zombie,tag=!donpig_ab.asset.mob.special_mob] run data modify entity @s data.donpig_ab.asset.mob.id set value zombie
     execute if entity @s[type=minecraft:zombified_piglin,tag=!donpig_ab.asset.mob.special_mob] run data modify entity @s data.donpig_ab.asset.mob.id set value zombified_piglin
+
+# reference data
+    function ancestral_beats:mob/init/to with entity @s data.donpig_ab.asset.mob
+
+# set common data
+    function ancestral_beats:mob/init/common

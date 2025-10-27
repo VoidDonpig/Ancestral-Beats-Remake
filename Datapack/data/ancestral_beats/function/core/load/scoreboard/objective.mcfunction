@@ -2,11 +2,12 @@
 #
 # scoreboard objective
 #
-# @within ancestral_beats:core/load/scoreboard/objective
+# @within ancestral_beats:core/load/scoreboard/
 
 # system
     scoreboard objectives add donpig_ab.constant dummy
     scoreboard objectives add donpig_ab.temporary dummy
+    scoreboard objectives add donpig_ab.world dummy
 
 # item related
     scoreboard objectives add donpig_ab.asset.item.shortbow_cooltime dummy
@@ -20,6 +21,8 @@
     scoreboard objectives add donpig_ab.player.status.mp dummy
     scoreboard objectives add donpig_ab.player.status.mp_max dummy
     scoreboard objectives add donpig_ab.player.status.mp_regen_timer dummy
+    scoreboard objectives add donpig_ab.player.id dummy
+    scoreboard objectives add donpig_ab.player.attack_cooldown dummy
 
 # mob
     scoreboard objectives add donpig_ab.asset.mob.timer_1 dummy
@@ -32,6 +35,7 @@
     scoreboard objectives add donpig_ab.asset.mob.count_3 dummy
     scoreboard objectives add donpig_ab.asset.mob.count_4 dummy
     scoreboard objectives add donpig_ab.asset.mob.count_5 dummy
+    scoreboard objectives add donpig_ab.asset.mob.id dummy
 
 # tool
     # pickaxe
