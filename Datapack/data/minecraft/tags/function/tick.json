@@ -1,5 +1,6 @@
 {
     "values": [
-        "ancestral_beats:core/main"
+        "ancestral_beats:core/main",
+        "ancestral_beats:asset/bgm/ancestral_beats/tick"
     ]
 }

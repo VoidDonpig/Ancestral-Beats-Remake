@@ -1,0 +1,2 @@
+execute as @a[tag=nbs_AncestralB] run scoreboard players operation @s nbs_AncestralB += speed nbs_AncestralB
+execute as @a[tag=nbs_AncestralB] at @s run function ancestral_beats:asset/bgm/ancestral_beats/tree/0_8191
