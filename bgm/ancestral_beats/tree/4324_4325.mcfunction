@@ -1,1 +1,0 @@
-execute as @s[scores={nbs_AncestralB=345920..346160,nbs_AncestralB_t=..4323}] run function ancestral_beats:asset/bgm/ancestral_beats/notes/4324
