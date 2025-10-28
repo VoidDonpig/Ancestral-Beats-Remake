@@ -2,7 +2,7 @@
 #
 # used axe
 #
-# @within ancestral_beats:player/
+# @within ancestral_beats:player/advancement_tick
 
 # reset
     scoreboard players reset @s donpig_ab.asset.item.used_wooden_axe
