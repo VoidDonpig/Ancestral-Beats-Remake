@@ -47,5 +47,11 @@
 # reference data
     function ancestral_beats:mob/init/to with entity @s data.donpig_ab.asset.mob
 
+# set data
+    function ancestral_beats:mob/init/set_data
+
 # set common data
     function ancestral_beats:mob/init/common
+
+# add init tag
+    tag @s add donpig_ab.asset.mob.already_init

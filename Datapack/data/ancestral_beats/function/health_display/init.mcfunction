@@ -9,7 +9,7 @@
 
 # get name
     execute unless data entity @s CustomName run function ancestral_beats:health_display/get_name
-    data modify entity @s data.mob.name set from entity @s CustomName
+    data modify entity @s data.donpig_ab.asset.mob.name set from entity @s CustomName
 
 # update display
     function ancestral_beats:health_display/update

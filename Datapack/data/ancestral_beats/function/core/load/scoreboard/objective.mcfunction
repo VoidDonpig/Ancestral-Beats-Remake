@@ -36,6 +36,8 @@
     scoreboard objectives add donpig_ab.asset.mob.count_4 dummy
     scoreboard objectives add donpig_ab.asset.mob.count_5 dummy
     scoreboard objectives add donpig_ab.asset.mob.id dummy
+    scoreboard objectives add donpig_ab.asset.mob.health dummy
+    scoreboard objectives add donpig_ab.asset.mob.max_health dummy
 
 # tool
     # pickaxe
