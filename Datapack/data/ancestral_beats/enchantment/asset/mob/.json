@@ -102,7 +102,7 @@
       {
         "effect": {
           "type": "minecraft:run_function",
-          "function": "mob:death/loot/"
+          "function": "ancestral_beats:mob/death/loot/"
         },
         "requirements": [
           {
@@ -127,7 +127,7 @@
       {
         "effect": {
           "type": "minecraft:run_function",
-          "function": "mob:death/"
+          "function": "ancestral_beats:mob/death/"
         },
         "requirements": [
           {
@@ -142,7 +142,7 @@
       {
         "effect": {
           "type": "minecraft:run_function",
-          "function": "mob:death/"
+          "function": "ancestral_beats:mob/death/"
         },
         "requirements": {
           "condition": "minecraft:entity_properties",
