@@ -17,10 +17,8 @@
 # player
     scoreboard objectives add donpig_ab.player.death_count deathCount
     scoreboard objectives add donpig_ab.player.status.hp health
-    scoreboard objectives add donpig_ab.player.status.hp_max dummy
     scoreboard objectives add donpig_ab.player.status.mp dummy
     scoreboard objectives add donpig_ab.player.status.mp_max dummy
-    scoreboard objectives add donpig_ab.player.status.mp_regen_timer dummy
     scoreboard objectives add donpig_ab.player.id dummy
     scoreboard objectives add donpig_ab.player.attack_cooldown dummy
 
