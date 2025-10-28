@@ -21,6 +21,7 @@
     scoreboard objectives add donpig_ab.player.status.mp_max dummy
     scoreboard objectives add donpig_ab.player.id dummy
     scoreboard objectives add donpig_ab.player.attack_cooldown dummy
+    scoreboard objectives add donpig_ab.player.attack_speed dummy
 
 # mob
     scoreboard objectives add donpig_ab.asset.mob.timer_1 dummy

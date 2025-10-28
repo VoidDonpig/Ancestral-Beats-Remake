@@ -1,0 +1,12 @@
+{
+    "condition": "value_check",
+    "range": {
+        "max": 2147483647,
+        "min": -2147483648
+    },
+    "value": {
+        "type": "score",
+        "score": "donpig_ab.player.id",
+        "target": "this"
+    }
+}
