@@ -13,7 +13,7 @@
                                 [
                                     "",
                                     {
-                                        "text": "♦ Miner Pickaxe",
+                                        "text": "♦ Fine Diamond",
                                         "color": "black",
                                         "bold": true
                                     },
@@ -26,14 +26,863 @@
                                     "\n",
                                     {
                                         "text": "█ ",
-                                        "color": "gray",
+                                        "color": "aqua",
                                         "extra": [
                                             {
-                                                "translate": "block.minecraft.cobblestone",
+                                                "translate": "item.minecraft.diamond",
                                                 "color": "black",
                                                 "extra": [
                                                     {
-                                                        "text": " ×32",
+                                                        "text": " ×1",
+                                                        "color": "black"
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    "\n",
+                                    {
+                                        "text": "█ ",
+                                        "color": "gold",
+                                        "extra": [
+                                            {
+                                                "translate": "item.minecraft.lava_bucket",
+                                                "color": "black",
+                                                "extra": [
+                                                    {
+                                                        "text": " ×1",
+                                                        "color": "black"
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    "\n",
+                                    "\n",
+                                    "\n",
+                                    "\n",
+                                    "\n",
+                                    {
+                                        "text": "                        ",
+                                        "color": "black",
+                                        "strikethrough": true
+                                    },
+                                    "\n",
+                                    {
+                                        "text": "♦ Pattern",
+                                        "color": "black",
+                                        "bold": true
+                                    },
+                                    "\n",
+                                    {
+                                        "text": "　　　　█",
+                                        "color": "white",
+                                        "extra": [
+                                            {
+                                                "text": "█",
+                                                "color": "aqua",
+                                                "extra": [
+                                                    {
+                                                        "text": "█",
+                                                        "color": "white"
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    "\n",
+                                    {
+                                        "text": "　　　　█",
+                                        "color": "aqua",
+                                        "extra": [
+                                            {
+                                                "text": "█",
+                                                "color": "gold",
+                                                "extra": [
+                                                    {
+                                                        "text": "█",
+                                                        "color": "aqua"
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    "\n",
+                                    {
+                                        "text": "　　　　█",
+                                        "color": "white",
+                                        "extra": [
+                                            {
+                                                "text": "█",
+                                                "color": "aqua",
+                                                "extra": [
+                                                    {
+                                                        "text": "█",
+                                                        "color": "white"
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ],
+                                [
+                                    "",
+                                    {
+                                        "text": "♦ Fine Diamond Helmet",
+                                        "color": "black",
+                                        "bold": true
+                                    },
+                                    "\n",
+                                    {
+                                        "text": "                        ",
+                                        "color": "black",
+                                        "strikethrough": true
+                                    },
+                                    "\n",
+                                    {
+                                        "text": "█ ",
+                                        "color": "aqua",
+                                        "extra": [
+                                            {
+                                                "text": "Fine Diamond",
+                                                "color": "black",
+                                                "extra": [
+                                                    {
+                                                        "text": " ×1",
+                                                        "color": "black"
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    "\n",
+                                    "\n",
+                                    "\n",
+                                    "\n",
+                                    "\n",
+                                    {
+                                        "text": "                        ",
+                                        "color": "black",
+                                        "strikethrough": true
+                                    },
+                                    "\n",
+                                    {
+                                        "text": "♦ Pattern",
+                                        "color": "black",
+                                        "bold": true
+                                    },
+                                    "\n",
+                                    {
+                                        "text": "　　　　█",
+                                        "color": "aqua",
+                                        "extra": [
+                                            {
+                                                "text": "█",
+                                                "color": "aqua",
+                                                "extra": [
+                                                    {
+                                                        "text": "█",
+                                                        "color": "aqua"
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    "\n",
+                                    {
+                                        "text": "　　　　█",
+                                        "color": "aqua",
+                                        "extra": [
+                                            {
+                                                "text": "█",
+                                                "color": "white",
+                                                "extra": [
+                                                    {
+                                                        "text": "█",
+                                                        "color": "aqua"
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    "\n",
+                                    {
+                                        "text": "　　　　█",
+                                        "color": "white",
+                                        "extra": [
+                                            {
+                                                "text": "█",
+                                                "color": "white",
+                                                "extra": [
+                                                    {
+                                                        "text": "█",
+                                                        "color": "white"
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ],
+                                [
+                                    "",
+                                    {
+                                        "text": "♦ Fine Diamond Chestplate",
+                                        "color": "black",
+                                        "bold": true
+                                    },
+                                    "\n",
+                                    {
+                                        "text": "                        ",
+                                        "color": "black",
+                                        "strikethrough": true
+                                    },
+                                    "\n",
+                                    {
+                                        "text": "█ ",
+                                        "color": "aqua",
+                                        "extra": [
+                                            {
+                                                "text": "Fine Diamond",
+                                                "color": "black",
+                                                "extra": [
+                                                    {
+                                                        "text": " ×1",
+                                                        "color": "black"
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    "\n",
+                                    "\n",
+                                    "\n",
+                                    "\n",
+                                    "\n",
+                                    {
+                                        "text": "                        ",
+                                        "color": "black",
+                                        "strikethrough": true
+                                    },
+                                    "\n",
+                                    {
+                                        "text": "♦ Pattern",
+                                        "color": "black",
+                                        "bold": true
+                                    },
+                                    "\n",
+                                    {
+                                        "text": "　　　　█",
+                                        "color": "aqua",
+                                        "extra": [
+                                            {
+                                                "text": "█",
+                                                "color": "white",
+                                                "extra": [
+                                                    {
+                                                        "text": "█",
+                                                        "color": "aqua"
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    "\n",
+                                    {
+                                        "text": "　　　　█",
+                                        "color": "aqua",
+                                        "extra": [
+                                            {
+                                                "text": "█",
+                                                "color": "aqua",
+                                                "extra": [
+                                                    {
+                                                        "text": "█",
+                                                        "color": "aqua"
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    "\n",
+                                    {
+                                        "text": "　　　　█",
+                                        "color": "aqua",
+                                        "extra": [
+                                            {
+                                                "text": "█",
+                                                "color": "aqua",
+                                                "extra": [
+                                                    {
+                                                        "text": "█",
+                                                        "color": "aqua"
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ],
+                                [
+                                    "",
+                                    {
+                                        "text": "♦ Fine Diamond Leggings",
+                                        "color": "black",
+                                        "bold": true
+                                    },
+                                    "\n",
+                                    {
+                                        "text": "                        ",
+                                        "color": "black",
+                                        "strikethrough": true
+                                    },
+                                    "\n",
+                                    {
+                                        "text": "█ ",
+                                        "color": "aqua",
+                                        "extra": [
+                                            {
+                                                "text": "Fine Diamond",
+                                                "color": "black",
+                                                "extra": [
+                                                    {
+                                                        "text": " ×1",
+                                                        "color": "black"
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    "\n",
+                                    "\n",
+                                    "\n",
+                                    "\n",
+                                    "\n",
+                                    {
+                                        "text": "                        ",
+                                        "color": "black",
+                                        "strikethrough": true
+                                    },
+                                    "\n",
+                                    {
+                                        "text": "♦ Pattern",
+                                        "color": "black",
+                                        "bold": true
+                                    },
+                                    "\n",
+                                    {
+                                        "text": "　　　　█",
+                                        "color": "aqua",
+                                        "extra": [
+                                            {
+                                                "text": "█",
+                                                "color": "aqua",
+                                                "extra": [
+                                                    {
+                                                        "text": "█",
+                                                        "color": "aqua"
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    "\n",
+                                    {
+                                        "text": "　　　　█",
+                                        "color": "aqua",
+                                        "extra": [
+                                            {
+                                                "text": "█",
+                                                "color": "white",
+                                                "extra": [
+                                                    {
+                                                        "text": "█",
+                                                        "color": "aqua"
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    "\n",
+                                    {
+                                        "text": "　　　　█",
+                                        "color": "aqua",
+                                        "extra": [
+                                            {
+                                                "text": "█",
+                                                "color": "white",
+                                                "extra": [
+                                                    {
+                                                        "text": "█",
+                                                        "color": "aqua"
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ],
+                                [
+                                    "",
+                                    {
+                                        "text": "♦ Fine Diamond Boots",
+                                        "color": "black",
+                                        "bold": true
+                                    },
+                                    "\n",
+                                    {
+                                        "text": "                        ",
+                                        "color": "black",
+                                        "strikethrough": true
+                                    },
+                                    "\n",
+                                    {
+                                        "text": "█ ",
+                                        "color": "aqua",
+                                        "extra": [
+                                            {
+                                                "text": "Fine Diamond",
+                                                "color": "black",
+                                                "extra": [
+                                                    {
+                                                        "text": " ×1",
+                                                        "color": "black"
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    "\n",
+                                    "\n",
+                                    "\n",
+                                    "\n",
+                                    "\n",
+                                    {
+                                        "text": "                        ",
+                                        "color": "black",
+                                        "strikethrough": true
+                                    },
+                                    "\n",
+                                    {
+                                        "text": "♦ Pattern",
+                                        "color": "black",
+                                        "bold": true
+                                    },
+                                    "\n",
+                                    {
+                                        "text": "　　　　█",
+                                        "color": "white",
+                                        "extra": [
+                                            {
+                                                "text": "█",
+                                                "color": "white",
+                                                "extra": [
+                                                    {
+                                                        "text": "█",
+                                                        "color": "white"
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    "\n",
+                                    {
+                                        "text": "　　　　█",
+                                        "color": "aqua",
+                                        "extra": [
+                                            {
+                                                "text": "█",
+                                                "color": "white",
+                                                "extra": [
+                                                    {
+                                                        "text": "█",
+                                                        "color": "aqua"
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    "\n",
+                                    {
+                                        "text": "　　　　█",
+                                        "color": "aqua",
+                                        "extra": [
+                                            {
+                                                "text": "█",
+                                                "color": "white",
+                                                "extra": [
+                                                    {
+                                                        "text": "█",
+                                                        "color": "aqua"
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ],
+                                [
+                                    "",
+                                    {
+                                        "text": "♦ Fine Diamond Sword",
+                                        "color": "black",
+                                        "bold": true
+                                    },
+                                    "\n",
+                                    {
+                                        "text": "                        ",
+                                        "color": "black",
+                                        "strikethrough": true
+                                    },
+                                    "\n",
+                                    {
+                                        "text": "█ ",
+                                        "color": "aqua",
+                                        "extra": [
+                                            {
+                                                "text": "Fine Diamond",
+                                                "color": "black",
+                                                "extra": [
+                                                    {
+                                                        "text": " ×1",
+                                                        "color": "black"
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    "\n",
+                                    {
+                                        "text": "█ ",
+                                        "color": "#663300",
+                                        "extra": [
+                                            {
+                                                "translate": "item.minecraft.stick",
+                                                "color": "black",
+                                                "extra": [
+                                                    {
+                                                        "text": " ×1",
+                                                        "color": "black"
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    "\n",
+                                    "\n",
+                                    "\n",
+                                    "\n",
+                                    {
+                                        "text": "                        ",
+                                        "color": "black",
+                                        "strikethrough": true
+                                    },
+                                    "\n",
+                                    {
+                                        "text": "♦ Pattern",
+                                        "color": "black",
+                                        "bold": true
+                                    },
+                                    "\n",
+                                    {
+                                        "text": "　　　　█",
+                                        "color": "white",
+                                        "extra": [
+                                            {
+                                                "text": "█",
+                                                "color": "aqua",
+                                                "extra": [
+                                                    {
+                                                        "text": "█",
+                                                        "color": "white"
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    "\n",
+                                    {
+                                        "text": "　　　　█",
+                                        "color": "white",
+                                        "extra": [
+                                            {
+                                                "text": "█",
+                                                "color": "aqua",
+                                                "extra": [
+                                                    {
+                                                        "text": "█",
+                                                        "color": "white"
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    "\n",
+                                    {
+                                        "text": "　　　　█",
+                                        "color": "white",
+                                        "extra": [
+                                            {
+                                                "text": "█",
+                                                "color": "#663300",
+                                                "extra": [
+                                                    {
+                                                        "text": "█",
+                                                        "color": "white"
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ],
+                                [
+                                    "",
+                                    {
+                                        "text": "♦ Fine Diamond Pickaxe",
+                                        "color": "black",
+                                        "bold": true
+                                    },
+                                    "\n",
+                                    {
+                                        "text": "                        ",
+                                        "color": "black",
+                                        "strikethrough": true
+                                    },
+                                    "\n",
+                                    {
+                                        "text": "█ ",
+                                        "color": "aqua",
+                                        "extra": [
+                                            {
+                                                "text": "Fine Diamond",
+                                                "color": "black",
+                                                "extra": [
+                                                    {
+                                                        "text": " ×1",
+                                                        "color": "black"
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    "\n",
+                                    {
+                                        "text": "█ ",
+                                        "color": "#663300",
+                                        "extra": [
+                                            {
+                                                "translate": "item.minecraft.stick",
+                                                "color": "black",
+                                                "extra": [
+                                                    {
+                                                        "text": " ×1",
+                                                        "color": "black"
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    "\n",
+                                    "\n",
+                                    "\n",
+                                    "\n",
+                                    {
+                                        "text": "                        ",
+                                        "color": "black",
+                                        "strikethrough": true
+                                    },
+                                    "\n",
+                                    {
+                                        "text": "♦ Pattern",
+                                        "color": "black",
+                                        "bold": true
+                                    },
+                                    "\n",
+                                    {
+                                        "text": "　　　　█",
+                                        "color": "aqua",
+                                        "extra": [
+                                            {
+                                                "text": "█",
+                                                "color": "aqua",
+                                                "extra": [
+                                                    {
+                                                        "text": "█",
+                                                        "color": "aqua"
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    "\n",
+                                    {
+                                        "text": "　　　　█",
+                                        "color": "white",
+                                        "extra": [
+                                            {
+                                                "text": "█",
+                                                "color": "#663300",
+                                                "extra": [
+                                                    {
+                                                        "text": "█",
+                                                        "color": "white"
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    "\n",
+                                    {
+                                        "text": "　　　　█",
+                                        "color": "white",
+                                        "extra": [
+                                            {
+                                                "text": "█",
+                                                "color": "#663300",
+                                                "extra": [
+                                                    {
+                                                        "text": "█",
+                                                        "color": "white"
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ],
+                                [
+                                    "",
+                                    {
+                                        "text": "♦ Fine Diamond Shovel",
+                                        "color": "black",
+                                        "bold": true
+                                    },
+                                    "\n",
+                                    {
+                                        "text": "                        ",
+                                        "color": "black",
+                                        "strikethrough": true
+                                    },
+                                    "\n",
+                                    {
+                                        "text": "█ ",
+                                        "color": "aqua",
+                                        "extra": [
+                                            {
+                                                "text": "Fine Diamond",
+                                                "color": "black",
+                                                "extra": [
+                                                    {
+                                                        "text": " ×1",
+                                                        "color": "black"
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    "\n",
+                                    {
+                                        "text": "█ ",
+                                        "color": "#663300",
+                                        "extra": [
+                                            {
+                                                "translate": "item.minecraft.stick",
+                                                "color": "black",
+                                                "extra": [
+                                                    {
+                                                        "text": " ×1",
+                                                        "color": "black"
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    "\n",
+                                    "\n",
+                                    "\n",
+                                    "\n",
+                                    {
+                                        "text": "                        ",
+                                        "color": "black",
+                                        "strikethrough": true
+                                    },
+                                    "\n",
+                                    {
+                                        "text": "♦ Pattern",
+                                        "color": "black",
+                                        "bold": true
+                                    },
+                                    "\n",
+                                    {
+                                        "text": "　　　　█",
+                                        "color": "white",
+                                        "extra": [
+                                            {
+                                                "text": "█",
+                                                "color": "aqua",
+                                                "extra": [
+                                                    {
+                                                        "text": "█",
+                                                        "color": "white"
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    "\n",
+                                    {
+                                        "text": "　　　　█",
+                                        "color": "white",
+                                        "extra": [
+                                            {
+                                                "text": "█",
+                                                "color": "#663300",
+                                                "extra": [
+                                                    {
+                                                        "text": "█",
+                                                        "color": "white"
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    "\n",
+                                    {
+                                        "text": "　　　　█",
+                                        "color": "white",
+                                        "extra": [
+                                            {
+                                                "text": "█",
+                                                "color": "#663300",
+                                                "extra": [
+                                                    {
+                                                        "text": "█",
+                                                        "color": "white"
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ],
+                                [
+                                    "",
+                                    {
+                                        "text": "♦ Fine Diamond Axe",
+                                        "color": "black",
+                                        "bold": true
+                                    },
+                                    "\n",
+                                    {
+                                        "text": "                        ",
+                                        "color": "black",
+                                        "strikethrough": true
+                                    },
+                                    "\n",
+                                    {
+                                        "text": "█ ",
+                                        "color": "aqua",
+                                        "extra": [
+                                            {
+                                                "text": "Fine Diamond",
+                                                "color": "black",
+                                                "extra": [
+                                                    {
+                                                        "text": " ×1",
                                                         "color": "black"
                                                     }
                                                 ]
@@ -76,15 +925,15 @@
                                     "\n",
                                     {
                                         "text": "　　　　█",
-                                        "color": "gray",
+                                        "color": "aqua",
                                         "extra": [
                                             {
                                                 "text": "█",
-                                                "color": "gray",
+                                                "color": "aqua",
                                                 "extra": [
                                                     {
                                                         "text": "█",
-                                                        "color": "gray"
+                                                        "color": "white"
                                                     }
                                                 ]
                                             }
@@ -93,7 +942,7 @@
                                     "\n",
                                     {
                                         "text": "　　　　█",
-                                        "color": "white",
+                                        "color": "aqua",
                                         "extra": [
                                             {
                                                 "text": "█",
@@ -119,627 +968,6 @@
                                                     {
                                                         "text": "█",
                                                         "color": "white"
-                                                    }
-                                                ]
-                                            }
-                                        ]
-                                    }
-                                ],
-                                [
-                                    "",
-                                    {
-                                        "text": "♦ Cobblestone Helmet",
-                                        "color": "black",
-                                        "bold": true
-                                    },
-                                    "\n",
-                                    {
-                                        "text": "                        ",
-                                        "color": "black",
-                                        "strikethrough": true
-                                    },
-                                    "\n",
-                                    {
-                                        "text": "█ ",
-                                        "color": "gray",
-                                        "extra": [
-                                            {
-                                                "translate": "block.minecraft.cobblestone",
-                                                "color": "black",
-                                                "extra": [
-                                                    {
-                                                        "text": " ×10",
-                                                        "color": "black"
-                                                    }
-                                                ]
-                                            }
-                                        ]
-                                    },
-                                    "\n",
-                                    "\n",
-                                    "\n",
-                                    "\n",
-                                    "\n",
-                                    {
-                                        "text": "                        ",
-                                        "color": "black",
-                                        "strikethrough": true
-                                    },
-                                    "\n",
-                                    {
-                                        "text": "♦ Pattern",
-                                        "color": "black",
-                                        "bold": true
-                                    },
-                                    "\n",
-                                    {
-                                        "text": "　　　　█",
-                                        "color": "gray",
-                                        "extra": [
-                                            {
-                                                "text": "█",
-                                                "color": "gray",
-                                                "extra": [
-                                                    {
-                                                        "text": "█",
-                                                        "color": "gray"
-                                                    }
-                                                ]
-                                            }
-                                        ]
-                                    },
-                                    "\n",
-                                    {
-                                        "text": "　　　　█",
-                                        "color": "gray",
-                                        "extra": [
-                                            {
-                                                "text": "█",
-                                                "color": "white",
-                                                "extra": [
-                                                    {
-                                                        "text": "█",
-                                                        "color": "gray"
-                                                    }
-                                                ]
-                                            }
-                                        ]
-                                    },
-                                    "\n",
-                                    {
-                                        "text": "　　　　█",
-                                        "color": "white",
-                                        "extra": [
-                                            {
-                                                "text": "█",
-                                                "color": "white",
-                                                "extra": [
-                                                    {
-                                                        "text": "█",
-                                                        "color": "white"
-                                                    }
-                                                ]
-                                            }
-                                        ]
-                                    }
-                                ],
-                                [
-                                    "",
-                                    {
-                                        "text": "♦ Cobblestone Chestplate",
-                                        "color": "black",
-                                        "bold": true
-                                    },
-                                    "\n",
-                                    {
-                                        "text": "                        ",
-                                        "color": "black",
-                                        "strikethrough": true
-                                    },
-                                    "\n",
-                                    {
-                                        "text": "█ ",
-                                        "color": "gray",
-                                        "extra": [
-                                            {
-                                                "translate": "block.minecraft.cobblestone",
-                                                "color": "black",
-                                                "extra": [
-                                                    {
-                                                        "text": " ×10",
-                                                        "color": "black"
-                                                    }
-                                                ]
-                                            }
-                                        ]
-                                    },
-                                    "\n",
-                                    "\n",
-                                    "\n",
-                                    "\n",
-                                    "\n",
-                                    {
-                                        "text": "                        ",
-                                        "color": "black",
-                                        "strikethrough": true
-                                    },
-                                    "\n",
-                                    {
-                                        "text": "♦ Pattern",
-                                        "color": "black",
-                                        "bold": true
-                                    },
-                                    "\n",
-                                    {
-                                        "text": "　　　　█",
-                                        "color": "gray",
-                                        "extra": [
-                                            {
-                                                "text": "█",
-                                                "color": "white",
-                                                "extra": [
-                                                    {
-                                                        "text": "█",
-                                                        "color": "gray"
-                                                    }
-                                                ]
-                                            }
-                                        ]
-                                    },
-                                    "\n",
-                                    {
-                                        "text": "　　　　█",
-                                        "color": "gray",
-                                        "extra": [
-                                            {
-                                                "text": "█",
-                                                "color": "gray",
-                                                "extra": [
-                                                    {
-                                                        "text": "█",
-                                                        "color": "gray"
-                                                    }
-                                                ]
-                                            }
-                                        ]
-                                    },
-                                    "\n",
-                                    {
-                                        "text": "　　　　█",
-                                        "color": "gray",
-                                        "extra": [
-                                            {
-                                                "text": "█",
-                                                "color": "gray",
-                                                "extra": [
-                                                    {
-                                                        "text": "█",
-                                                        "color": "gray"
-                                                    }
-                                                ]
-                                            }
-                                        ]
-                                    }
-                                ],
-                                [
-                                    "",
-                                    {
-                                        "text": "♦ Cobblestone Leggings",
-                                        "color": "black",
-                                        "bold": true
-                                    },
-                                    "\n",
-                                    {
-                                        "text": "                        ",
-                                        "color": "black",
-                                        "strikethrough": true
-                                    },
-                                    "\n",
-                                    {
-                                        "text": "█ ",
-                                        "color": "gray",
-                                        "extra": [
-                                            {
-                                                "translate": "block.minecraft.cobblestone",
-                                                "color": "black",
-                                                "extra": [
-                                                    {
-                                                        "text": " ×10",
-                                                        "color": "black"
-                                                    }
-                                                ]
-                                            }
-                                        ]
-                                    },
-                                    "\n",
-                                    "\n",
-                                    "\n",
-                                    "\n",
-                                    "\n",
-                                    {
-                                        "text": "                        ",
-                                        "color": "black",
-                                        "strikethrough": true
-                                    },
-                                    "\n",
-                                    {
-                                        "text": "♦ Pattern",
-                                        "color": "black",
-                                        "bold": true
-                                    },
-                                    "\n",
-                                    {
-                                        "text": "　　　　█",
-                                        "color": "gray",
-                                        "extra": [
-                                            {
-                                                "text": "█",
-                                                "color": "gray",
-                                                "extra": [
-                                                    {
-                                                        "text": "█",
-                                                        "color": "gray"
-                                                    }
-                                                ]
-                                            }
-                                        ]
-                                    },
-                                    "\n",
-                                    {
-                                        "text": "　　　　█",
-                                        "color": "gray",
-                                        "extra": [
-                                            {
-                                                "text": "█",
-                                                "color": "white",
-                                                "extra": [
-                                                    {
-                                                        "text": "█",
-                                                        "color": "gray"
-                                                    }
-                                                ]
-                                            }
-                                        ]
-                                    },
-                                    "\n",
-                                    {
-                                        "text": "　　　　█",
-                                        "color": "gray",
-                                        "extra": [
-                                            {
-                                                "text": "█",
-                                                "color": "white",
-                                                "extra": [
-                                                    {
-                                                        "text": "█",
-                                                        "color": "gray"
-                                                    }
-                                                ]
-                                            }
-                                        ]
-                                    }
-                                ],
-                                [
-                                    "",
-                                    {
-                                        "text": "♦ Cobblestone Boots",
-                                        "color": "black",
-                                        "bold": true
-                                    },
-                                    "\n",
-                                    {
-                                        "text": "                        ",
-                                        "color": "black",
-                                        "strikethrough": true
-                                    },
-                                    "\n",
-                                    {
-                                        "text": "█ ",
-                                        "color": "gray",
-                                        "extra": [
-                                            {
-                                                "translate": "block.minecraft.cobblestone",
-                                                "color": "black",
-                                                "extra": [
-                                                    {
-                                                        "text": " ×10",
-                                                        "color": "black"
-                                                    }
-                                                ]
-                                            }
-                                        ]
-                                    },
-                                    "\n",
-                                    "\n",
-                                    "\n",
-                                    "\n",
-                                    "\n",
-                                    {
-                                        "text": "                        ",
-                                        "color": "black",
-                                        "strikethrough": true
-                                    },
-                                    "\n",
-                                    {
-                                        "text": "♦ Pattern",
-                                        "color": "black",
-                                        "bold": true
-                                    },
-                                    "\n",
-                                    {
-                                        "text": "　　　　█",
-                                        "color": "white",
-                                        "extra": [
-                                            {
-                                                "text": "█",
-                                                "color": "white",
-                                                "extra": [
-                                                    {
-                                                        "text": "█",
-                                                        "color": "white"
-                                                    }
-                                                ]
-                                            }
-                                        ]
-                                    },
-                                    "\n",
-                                    {
-                                        "text": "　　　　█",
-                                        "color": "gray",
-                                        "extra": [
-                                            {
-                                                "text": "█",
-                                                "color": "white",
-                                                "extra": [
-                                                    {
-                                                        "text": "█",
-                                                        "color": "gray"
-                                                    }
-                                                ]
-                                            }
-                                        ]
-                                    },
-                                    "\n",
-                                    {
-                                        "text": "　　　　█",
-                                        "color": "gray",
-                                        "extra": [
-                                            {
-                                                "text": "█",
-                                                "color": "white",
-                                                "extra": [
-                                                    {
-                                                        "text": "█",
-                                                        "color": "gray"
-                                                    }
-                                                ]
-                                            }
-                                        ]
-                                    }
-                                ],
-                                [
-                                    "",
-                                    {
-                                        "text": "♦ Enchanted Series",
-                                        "color": "black",
-                                        "bold": true
-                                    },
-                                    "\n",
-                                    {
-                                        "text": "                        ",
-                                        "color": "black",
-                                        "strikethrough": true
-                                    },
-                                    "\n",
-                                    {
-                                        "text": "█ ",
-                                        "color": "dark_blue",
-                                        "extra": [
-                                            {
-                                                "translate": "item.minecraft.lapis_lazuli",
-                                                "color": "black",
-                                                "extra": [
-                                                    {
-                                                        "text": " ×1",
-                                                        "color": "black"
-                                                    }
-                                                ]
-                                            }
-                                        ]
-                                    },
-                                    "\n",
-                                    {
-                                        "text": "█ ",
-                                        "color": "#663300",
-                                        "extra": [
-                                            {
-                                                "translate": "item.minecraft.writable_book",
-                                                "color": "black",
-                                                "extra": [
-                                                    {
-                                                        "text": " ×1",
-                                                        "color": "black"
-                                                    }
-                                                ]
-                                            }
-                                        ]
-                                    },
-                                    "\n",
-                                    "\n",
-                                    "\n",
-                                    "\n",
-                                    {
-                                        "text": "                        ",
-                                        "color": "black",
-                                        "strikethrough": true
-                                    },
-                                    "\n",
-                                    {
-                                        "text": "♦ Pattern",
-                                        "color": "black",
-                                        "bold": true
-                                    },
-                                    "\n",
-                                    {
-                                        "text": "　　　　█",
-                                        "color": "dark_blue",
-                                        "extra": [
-                                            {
-                                                "text": "█",
-                                                "color": "dark_blue",
-                                                "extra": [
-                                                    {
-                                                        "text": "█",
-                                                        "color": "dark_blue"
-                                                    }
-                                                ]
-                                            }
-                                        ]
-                                    },
-                                    "\n",
-                                    {
-                                        "text": "　　　　█",
-                                        "color": "dark_blue",
-                                        "extra": [
-                                            {
-                                                "text": "█",
-                                                "color": "#663300",
-                                                "extra": [
-                                                    {
-                                                        "text": "█",
-                                                        "color": "dark_blue"
-                                                    }
-                                                ]
-                                            }
-                                        ]
-                                    },
-                                    "\n",
-                                    {
-                                        "text": "　　　　█",
-                                        "color": "dark_blue",
-                                        "extra": [
-                                            {
-                                                "text": "█",
-                                                "color": "dark_blue",
-                                                "extra": [
-                                                    {
-                                                        "text": "█",
-                                                        "color": "dark_blue"
-                                                    }
-                                                ]
-                                            }
-                                        ]
-                                    }
-                                ],
-                                [
-                                    "",
-                                    {
-                                        "text": "♦ Farmer Series",
-                                        "color": "black",
-                                        "bold": true
-                                    },
-                                    "\n",
-                                    {
-                                        "text": "                        ",
-                                        "color": "black",
-                                        "strikethrough": true
-                                    },
-                                    "\n",
-                                    {
-                                        "text": "█ ",
-                                        "color": "#ccff00",
-                                        "extra": [
-                                            {
-                                                "translate": "block.minecraft.hay_block",
-                                                "color": "black",
-                                                "extra": [
-                                                    {
-                                                        "text": " ×1",
-                                                        "color": "black"
-                                                    }
-                                                ]
-                                            }
-                                        ]
-                                    },
-                                    "\n",
-                                    {
-                                        "text": "█ ",
-                                        "color": "#663300",
-                                        "extra": [
-                                            {
-                                                "translate": "item.minecraft.writable_book",
-                                                "color": "black",
-                                                "extra": [
-                                                    {
-                                                        "text": " ×1",
-                                                        "color": "black"
-                                                    }
-                                                ]
-                                            }
-                                        ]
-                                    },
-                                    "\n",
-                                    "\n",
-                                    "\n",
-                                    "\n",
-                                    "\n",
-                                    {
-                                        "text": "                        ",
-                                        "color": "black",
-                                        "strikethrough": true
-                                    },
-                                    "\n",
-                                    {
-                                        "text": "♦ Pattern",
-                                        "color": "black",
-                                        "bold": true
-                                    },
-                                    "\n",
-                                    {
-                                        "text": "　　　　█",
-                                        "color": "#ccff00",
-                                        "extra": [
-                                            {
-                                                "text": "█",
-                                                "color": "#ccff00",
-                                                "extra": [
-                                                    {
-                                                        "text": "█",
-                                                        "color": "#ccff00"
-                                                    }
-                                                ]
-                                            }
-                                        ]
-                                    },
-                                    "\n",
-                                    {
-                                        "text": "　　　　█",
-                                        "color": "#ccff00",
-                                        "extra": [
-                                            {
-                                                "text": "█",
-                                                "color": "#663300",
-                                                "extra": [
-                                                    {
-                                                        "text": "█",
-                                                        "color": "#ccff00"
-                                                    }
-                                                ]
-                                            }
-                                        ]
-                                    },
-                                    "\n",
-                                    {
-                                        "text": "　　　　█",
-                                        "color": "#ccff00",
-                                        "extra": [
-                                            {
-                                                "text": "█",
-                                                "color": "#ccff00",
-                                                "extra": [
-                                                    {
-                                                        "text": "█",
-                                                        "color": "#ccff00"
                                                     }
                                                 ]
                                             }
@@ -754,7 +982,7 @@
                             "entity": "this",
                             "lore": [
                                 {
-                                    "text": "Recipes of Beginner Series",
+                                    "text": "Recipes of Fine Diamond Series",
                                     "color": "gray",
                                     "italic": false
                                 },
@@ -775,11 +1003,11 @@
                                             "text": "【",
                                             "extra": [
                                                 {
-                                                    "text": "✪",
-                                                    "color": "white",
+                                                    "text": "✪✪✪",
+                                                    "color": "blue",
                                                     "extra": [
                                                         {
-                                                            "text": "✪✪✪✪",
+                                                            "text": "✪✪",
                                                             "color": "dark_gray",
                                                             "extra": [
                                                                 {
@@ -801,15 +1029,15 @@
                         },
                         {
                             "function": "minecraft:set_custom_data",
-                            "tag": "{donpig_ab:{asset:{item:{custom_item:1b,custom_item_id:\"beginner_series_recipe_book\"}}}}"
+                            "tag": "{donpig_ab:{asset:{item:{custom_item:1b,custom_item_id:\"fine_diamond_series_recipe_book\"}}}}"
                         },
                         {
                             "function": "minecraft:set_name",
                             "entity": "this",
                             "target": "item_name",
                             "name": {
-                                "text": "Beginner Series",
-                                "color": "white",
+                                "text": "Fine Diamond Series",
+                                "color": "blue",
                                 "italic": false
                             }
                         }

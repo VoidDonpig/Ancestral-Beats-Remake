@@ -9,3 +9,6 @@
 
 # set status
     function ancestral_beats:player/init/status
+
+# provide recipe book
+    loot give @s loot ancestral_beats:asset/item/recipe_book/beginner_series

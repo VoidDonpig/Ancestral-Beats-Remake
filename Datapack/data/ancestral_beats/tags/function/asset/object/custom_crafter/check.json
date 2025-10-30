@@ -1,5 +1,9 @@
 {
     "values": [
-        "ancestral_beats:asset/object/custom_crafter/result/miner_pickaxe/check"
+        "ancestral_beats:asset/object/custom_crafter/result/miner_pickaxe/check",
+        "ancestral_beats:asset/object/custom_crafter/result/cobblestone_armor_helmet/check",
+        "ancestral_beats:asset/object/custom_crafter/result/cobblestone_armor_chestplate/check",
+        "ancestral_beats:asset/object/custom_crafter/result/cobblestone_armor_leggings/check",
+        "ancestral_beats:asset/object/custom_crafter/result/cobblestone_armor_boots/check"
     ]
 }

@@ -2,6 +2,6 @@
     "condition": "entity_properties",
     "entity": "this",
     "predicate": {
-        "nbt": "{Item:{id:\"minecraft:dropper\",count:1b},Age:0s}"
+        "nbt": "{Item:{id:\"minecraft:dropper\"},Age:0s}"
     }
 }

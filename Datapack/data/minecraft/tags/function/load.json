@@ -1,6 +1,5 @@
 {
     "values": [
-        "ancestral_beats:core/load/",
-        "ancestral_beats:asset/bgm/ancestral_beats/load"
+        "ancestral_beats:core/load/"
     ]
 }
