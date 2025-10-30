@@ -62,7 +62,7 @@
                                         "strikethrough": true
                                     },
                                     {
-                                        "text": "パターン",
+                                        "text": "Pattern",
                                         "color": "black"
                                     },
                                     "",
@@ -88,12 +88,12 @@
                             "entity": "this",
                             "lore": [
                                 {
-                                    "text": "ビギナーシリーズの",
+                                    "text": "Recipes of Beginner Series",
                                     "color": "gray",
                                     "italic": false
                                 },
                                 {
-                                    "text": "アイテムレシピが書いてある",
+                                    "text": "are written.",
                                     "color": "gray",
                                     "italic": false
                                 },
@@ -103,7 +103,7 @@
                                     "strikethrough": true
                                 },
                                 {
-                                    "text": "‣ レシピ本",
+                                    "text": "‣ Recipe book",
                                     "extra": [
                                         {
                                             "text": "【",
@@ -142,7 +142,7 @@
                             "entity": "this",
                             "target": "item_name",
                             "name": {
-                                "text": "ビギナーシリーズ",
+                                "text": "Beginner Series",
                                 "color": "white",
                                 "italic": false
                             }
