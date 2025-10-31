@@ -126,7 +126,7 @@
                                     "slot": "head"
                                 },
                                 {
-                                    "id": "ancestral_beats:asset.item.max_health.rotten_armor_chestplate",
+                                    "id": "ancestral_beats:asset.item.max_health.rotten_armor_helmet",
                                     "attribute": "minecraft:max_health",
                                     "amount": 5,
                                     "operation": "add_value",

@@ -123,14 +123,14 @@
                                     "attribute": "minecraft:armor",
                                     "amount": 1,
                                     "operation": "add_value",
-                                    "slot": "chest"
+                                    "slot": "feet"
                                 },
                                 {
                                     "id": "ancestral_beats:asset.item.max_health.rotten_armor_boots",
                                     "attribute": "minecraft:max_health",
                                     "amount": 5,
                                     "operation": "add_value",
-                                    "slot": "chest"
+                                    "slot": "feet"
                                 }
                             ]
                         },

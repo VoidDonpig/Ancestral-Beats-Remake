@@ -123,14 +123,14 @@
                                     "attribute": "minecraft:armor",
                                     "amount": 2,
                                     "operation": "add_value",
-                                    "slot": "chest"
+                                    "slot": "legs"
                                 },
                                 {
                                     "id": "ancestral_beats:asset.item.max_health.rotten_armor_leggings",
                                     "attribute": "minecraft:max_health",
                                     "amount": 5,
                                     "operation": "add_value",
-                                    "slot": "chest"
+                                    "slot": "legs"
                                 }
                             ]
                         },

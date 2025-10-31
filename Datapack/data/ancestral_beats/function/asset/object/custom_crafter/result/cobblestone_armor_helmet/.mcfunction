@@ -1,4 +1,4 @@
-#> ancestral_beats:asset/object/custom_crafter/result/cobblestone_helmet/
+#> ancestral_beats:asset/object/custom_crafter/result/cobblestone_armor_helmet/
 #
 # output result
 #

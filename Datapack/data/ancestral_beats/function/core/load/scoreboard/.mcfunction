@@ -12,3 +12,7 @@
 
 # stuff
     function ancestral_beats:core/load/stuff
+
+# belowname
+    scoreboard objectives setdisplay below_name donpig_ab.player.status.hp
+    scoreboard objectives modify donpig_ab.player.status.hp displayname {"text":"❤",color:"red"}
