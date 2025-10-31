@@ -53,5 +53,8 @@
 # set common data
     function ancestral_beats:mob/init/common
 
+# reset
+    data remove storage ancestral_beats:mob data
+
 # add init tag
     tag @s add donpig_ab.asset.mob.already_init
