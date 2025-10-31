@@ -5,29 +5,34 @@
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "iron_pickaxe",
+                    "name": "minecraft:player_head",
                     "functions": [
                         {
                             "function": "minecraft:set_lore",
                             "entity": "this",
                             "lore": [
                                 {
+                                    "text": "The eye contains very hazardous power.",
+                                    "color": "gray",
+                                    "italic": false
+                                },
+                                {
                                     "text": "                         ",
                                     "color": "dark_gray",
                                     "strikethrough": true
                                 },
                                 {
-                                    "text": "‣ Pickaxe（Unbreakable）",
+                                    "text": "‣ Material",
                                     "extra": [
                                         {
                                             "text": "【",
                                             "extra": [
                                                 {
-                                                    "text": "✪",
-                                                    "color": "white",
+                                                    "text": "✪✪✪",
+                                                    "color": "blue",
                                                     "extra": [
                                                         {
-                                                            "text": "✪✪✪✪",
+                                                            "text": "✪✪",
                                                             "color": "dark_gray",
                                                             "extra": [
                                                                 {
@@ -49,32 +54,28 @@
                         },
                         {
                             "function": "minecraft:set_custom_data",
-                            "tag": "{donpig_ab:{asset:{item:{custom_item:1b,custom_item_id:\"miner_pickaxe\"}}}}"
+                            "tag": "{donpig_ab:{asset:{item:{custom_item:1b,custom_item_id:\"maximum_eye_of_ender\"}}}}"
                         },
                         {
                             "function": "minecraft:set_name",
                             "entity": "this",
                             "target": "item_name",
                             "name": {
-                                "text": "Miner Pickaxe",
-                                "color": "white",
+                                "text": "Maximum Eye of Ender",
+                                "color": "blue",
                                 "italic": false
                             }
                         },
                         {
-                            "function": "minecraft:set_components",
+                            "function": "set_components",
                             "components": {
-                                "repair_cost": 255,
                                 "enchantment_glint_override": true,
-                                "enchantments":{
-                                    "efficiency": 4,
-                                    "fortune": 2
-                                },
-                                "unbreakable": {},
-                                "minecraft:tooltip_display": {
-                                    "hidden_components": [
-                                        "minecraft:unbreakable",
-                                        "minecraft:attribute_modifiers"
+                                "minecraft:profile": {
+                                    "properties": [
+                                        {
+                                            "name": "textures",
+                                            "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZGFhOGZjOGRlNjQxN2I0OGQ0OGM4MGI0NDNjZjUzMjZlM2Q5ZGE0ZGJlOWIyNWZjZDQ5NTQ5ZDk2MTY4ZmMwIn19fQ=="
+                                        }
                                     ]
                                 }
                             }

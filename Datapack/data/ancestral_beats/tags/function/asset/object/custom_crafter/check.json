@@ -4,6 +4,8 @@
         "ancestral_beats:asset/object/custom_crafter/result/cobblestone_armor_helmet/check",
         "ancestral_beats:asset/object/custom_crafter/result/cobblestone_armor_chestplate/check",
         "ancestral_beats:asset/object/custom_crafter/result/cobblestone_armor_leggings/check",
-        "ancestral_beats:asset/object/custom_crafter/result/cobblestone_armor_boots/check"
+        "ancestral_beats:asset/object/custom_crafter/result/cobblestone_armor_boots/check",
+        "ancestral_beats:asset/object/custom_crafter/result/enchanted_series_recipe_book/check",
+        "ancestral_beats:asset/object/custom_crafter/result/farmer_series_recipe_book/check"
     ]
 }
