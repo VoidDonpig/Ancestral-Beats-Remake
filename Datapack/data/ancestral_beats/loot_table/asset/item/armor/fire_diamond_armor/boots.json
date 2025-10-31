@@ -1,0 +1,145 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:diamond_boots",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "minecraft:unbreakable": {},
+                                "repair_cost": 255,
+                                "minecraft:tooltip_display": {
+                                    "hidden_components": [
+                                        "attribute_modifiers",
+                                        "unbreakable"
+                                    ]
+                                },
+                                "enchantments":{
+                                    "protection": 5,
+                                    "fire_protection": 4
+                                }
+                            }
+                        },
+                        {
+                            "function": "minecraft:set_lore",
+                            "entity": "this",
+                            "lore": [
+                                {
+                                    "text": "        ",
+                                    "color": "dark_gray",
+                                    "strikethrough": true,
+                                    "italic": false,
+                                    "extra": [
+                                        {
+                                            "text": "Status",
+                                            "strikethrough": false,
+                                            "extra": [
+                                                {
+                                                    "text": "         ",
+                                                    "strikethrough": true
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "text": "‣ Armor: ",
+                                    "extra": [
+                                        {
+                                            "text": "+3",
+                                            "color": "green"
+                                        }
+                                    ],
+                                    "color": "white",
+                                    "italic": false
+                                },
+                                {
+                                    "text": "‣ Armor Toughness: ",
+                                    "extra": [
+                                        {
+                                            "text": "+1",
+                                            "color": "green"
+                                        }
+                                    ],
+                                    "color": "white",
+                                    "italic": false
+                                },
+                                {
+                                    "text": "                         ",
+                                    "color": "dark_gray",
+                                    "strikethrough": true
+                                },
+                                {
+                                    "text": "‣ Boots（Unbreakable）",
+                                    "extra": [
+                                        {
+                                            "text": "【",
+                                            "extra": [
+                                                {
+                                                    "text": "✪✪✪",
+                                                    "color": "blue",
+                                                    "extra": [
+                                                        {
+                                                            "text": "✪✪",
+                                                            "color": "dark_gray",
+                                                            "extra": [
+                                                                {
+                                                                    "text": "】",
+                                                                    "color": "white"
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ],
+                                    "color": "white",
+                                    "italic": false
+                                }
+                            ],
+                            "mode": "replace_all"
+                        },
+                        {
+                            "function": "minecraft:set_attributes",
+                            "modifiers": [
+                                {
+                                    "id": "ancestral_beats:asset.item.armor.fine_diamond_armor_boots",
+                                    "attribute": "minecraft:armor",
+                                    "amount": 3,
+                                    "operation": "add_value",
+                                    "slot": "feet"
+                                },
+                                {
+                                    "id": "ancestral_beats:asset.item.armor_toughness.fine_diamond_armor_boots",
+                                    "attribute": "minecraft:armor_toughness",
+                                    "amount": 1,
+                                    "operation": "add_value",
+                                    "slot": "feet"
+                                }
+                            ]
+                        },
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{donpig_ab:{asset:{item:{custom_item:1b,custom_item_id:\"fine_diamond_armor_boots\"}}}}"
+                        },
+                        {
+                            "function": "minecraft:set_name",
+                            "entity": "this",
+                            "target": "item_name",
+                            "name": {
+                                "text": "Fine Diamond Boots",
+                                "color": "blue",
+                                "italic": false
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

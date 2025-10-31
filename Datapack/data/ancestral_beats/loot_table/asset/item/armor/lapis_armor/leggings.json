@@ -1,0 +1,146 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:leather_leggings",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "minecraft:unbreakable": {},
+                                "minecraft:dyed_color": 3949738,
+                                "repair_cost": 255,
+                                "minecraft:tooltip_display": {
+                                    "hidden_components": [
+                                        "attribute_modifiers",
+                                        "unbreakable",
+                                        "dyed_color"
+                                    ]
+                                },
+                                "enchantments":{
+                                    "protection": 2
+                                }
+                            }
+                        },
+                        {
+                            "function": "minecraft:set_lore",
+                            "entity": "this",
+                            "lore": [
+                                {
+                                    "text": "        ",
+                                    "color": "dark_gray",
+                                    "strikethrough": true,
+                                    "italic": false,
+                                    "extra": [
+                                        {
+                                            "text": "Status",
+                                            "strikethrough": false,
+                                            "extra": [
+                                                {
+                                                    "text": "         ",
+                                                    "strikethrough": true
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "text": "‣ Armor: ",
+                                    "extra": [
+                                        {
+                                            "text": "+2",
+                                            "color": "green"
+                                        }
+                                    ],
+                                    "color": "white",
+                                    "italic": false
+                                },
+                                {
+                                    "text": "‣ Max Health: ",
+                                    "extra": [
+                                        {
+                                            "text": "+4",
+                                            "color": "green"
+                                        }
+                                    ],
+                                    "color": "white",
+                                    "italic": false
+                                },
+                                {
+                                    "text": "                         ",
+                                    "color": "dark_gray",
+                                    "strikethrough": true
+                                },
+                                {
+                                    "text": "‣ Leggings（Unbreakable）",
+                                    "extra": [
+                                        {
+                                            "text": "【",
+                                            "extra": [
+                                                {
+                                                    "text": "✪✪",
+                                                    "color": "green",
+                                                    "extra": [
+                                                        {
+                                                            "text": "✪✪✪",
+                                                            "color": "dark_gray",
+                                                            "extra": [
+                                                                {
+                                                                    "text": "】",
+                                                                    "color": "white"
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ],
+                                    "color": "white",
+                                    "italic": false
+                                }
+                            ],
+                            "mode": "replace_all"
+                        },
+                        {
+                            "function": "minecraft:set_attributes",
+                            "modifiers": [
+                                {
+                                    "id": "ancestral_beats:asset.item.armor.lapis_armor_leggings",
+                                    "attribute": "minecraft:armor",
+                                    "amount": 2,
+                                    "operation": "add_value",
+                                    "slot": "legs"
+                                },
+                                {
+                                    "id": "ancestral_beats:asset.item.max_health.lapis_armor_leggings",
+                                    "attribute": "minecraft:max_health",
+                                    "amount": 4,
+                                    "operation": "add_value",
+                                    "slot": "legs"
+                                }
+                            ]
+                        },
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{donpig_ab:{asset:{item:{custom_item:1b,custom_item_id:\"lapis_armor_leggings\"}}}}"
+                        },
+                        {
+                            "function": "minecraft:set_name",
+                            "entity": "this",
+                            "target": "item_name",
+                            "name": {
+                                "text": "Lapis Leggings",
+                                "color": "green",
+                                "italic": false
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

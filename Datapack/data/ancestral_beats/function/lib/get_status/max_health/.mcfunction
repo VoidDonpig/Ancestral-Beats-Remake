@@ -2,11 +2,11 @@
 #
 # get max_health from the entity
 #
-# @api
+# @public
 #
 # @output
 #   storage
-#       api: _[-4][-4][-4][-4][-4][-4][-4][-4].max_health
+#       ancestral_beats:lib _[-4][-4][-4][-4][-4][-4][-4][-4].max_health
 
 # get data
-    execute store result storage api: _[-4][-4][-4][-4][-4][-4][-4][-4].max_health int 1 run attribute @s max_health get
+    execute store result storage ancestral_beats:lib _[-4][-4][-4][-4][-4][-4][-4][-4].max_health int 1 run attribute @s max_health get
