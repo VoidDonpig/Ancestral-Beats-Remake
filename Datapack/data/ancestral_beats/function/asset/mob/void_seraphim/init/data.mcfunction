@@ -8,7 +8,7 @@
     data modify storage ancestral_beats:mob data.CustomName set value {"text":"Void Seraphim","bold":true,"color":"dark_purple"}
     data modify storage ancestral_beats:mob data.CustomNameVisible set value 1b
 
-    data modify storage ancestral_beats:mob data.active_effects set value [{id:"glowing",duration:-1,"amplifier":0,"show_particles":true}]
+    #data modify storage ancestral_beats:mob data.active_effects set value [{id:"glowing",duration:-1,"amplifier":0,"show_particles":true}]
 
     #data modify storage ancestral_beats:mob data.equipment.head set value {"id":"leather_helmet","components":{dyed_color:1420677}}
     #data modify storage ancestral_beats:mob data.equipment.chest set value {"id":"diamond_chestplate"}
@@ -24,6 +24,8 @@
     #data modify storage ancestral_beats:mob data.PersistenceRequired set value 1b
 
     #data modify storage ancestral_beats:mob data.NoAI set value 1b
+
+    data modify storage ancestral_beats:mob data.Glowing set value 1b
 
 # define attribute
     data modify storage ancestral_beats:mob data.health set value 200.0

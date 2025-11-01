@@ -25,6 +25,8 @@
 
     #data modify storage ancestral_beats:mob data.NoAI set value 1b
 
+    #data modify storage ancestral_beats:mob data.Glowing set value 1b
+
 # define attribute
     #data modify storage ancestral_beats:mob data.health set value 1024.0
     #data modify storage ancestral_beats:mob data.damage set value 1024.0

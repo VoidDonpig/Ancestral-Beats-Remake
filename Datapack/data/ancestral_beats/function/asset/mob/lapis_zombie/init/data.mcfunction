@@ -8,7 +8,7 @@
     data modify storage ancestral_beats:mob data.CustomName set value {"text":"Lapis Zombie","color":dark_blue,"bold":true}
     data modify storage ancestral_beats:mob data.CustomNameVisible set value 1b
 
-    data modify storage ancestral_beats:mob data.active_effects set value [{id:"glowing",duration:-1,"amplifier":0,"show_particles":false}]
+    #data modify storage ancestral_beats:mob data.active_effects set value [{id:"glowing",duration:-1,"amplifier":0,"show_particles":false}]
 
     data modify storage ancestral_beats:mob data.equipment.head set value {"id":"lapis_block","components":{enchantments:{protection:2}}}
     data modify storage ancestral_beats:mob data.equipment.chest set value {"id":"leather_chestplate","components":{unbreakable:{},dyed_color:3949738,enchantments:{protection:2}}}
@@ -24,6 +24,8 @@
     #data modify storage ancestral_beats:mob data.PersistenceRequired set value 1b
 
     #data modify storage ancestral_beats:mob data.NoAI set value 1b
+
+    data modify storage ancestral_beats:mob data.Glowing set value 1b
 
 # define attribute
     data modify storage ancestral_beats:mob data.health set value 46.0
