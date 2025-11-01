@@ -20,5 +20,5 @@
 
 # sfx
     particle minecraft:crit ~ ~ ~ 0 0 0 0.5 12 normal
-    playsound minecraft:block.anvil.place block @a ~ ~ ~ 1 2
-    playsound minecraft:entity.player.levelup block @a ~ ~ ~ 1 2
+    playsound minecraft:block.anvil.place block @a[distance=..16] ~ ~ ~ 1 2
+    playsound minecraft:entity.player.levelup block @a[distance=..16] ~ ~ ~ 1 2

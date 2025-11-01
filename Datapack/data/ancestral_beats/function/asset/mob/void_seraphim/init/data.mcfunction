@@ -37,12 +37,12 @@
     data modify storage ancestral_beats:mob data.movement_speed set value 0.32
     #data modify storage ancestral_beats:mob data.movement_efficiency set value 1.0
     #data modify storage ancestral_beats:mob data.water_movement_efficiency set value 1.0
-    #data modify storage ancestral_beats:mob data.void_seraphim_spawn_reinforcements set value 1.0
+    #data modify storage ancestral_beats:mob data.zombie_spawn_reinforcements set value 1.0
     #data modify storage ancestral_beats:mob data.scale set value 16.0
     #data modify storage ancestral_beats:mob data.AbsorptionAmount set value 2048.0
 
 # define whether have specific events
-    #data modify storage ancestral_beats:mob data.have_always_action set value 1b
+    data modify storage ancestral_beats:mob data.have_always_action set value 1b
     #data modify storage ancestral_beats:mob data.have_death_event set value 1b
     #data modify storage ancestral_beats:mob data.have_hurt_event set value 1b
 
