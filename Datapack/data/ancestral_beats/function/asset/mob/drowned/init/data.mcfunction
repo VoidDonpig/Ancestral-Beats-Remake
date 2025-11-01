@@ -1,8 +1,8 @@
-#> ancestral_beats:asset/mob/zombie/init/data
+#> ancestral_beats:asset/mob/drowned/init/data
 #
 # define the data
 #
-# @within ancestral_beats:asset/mob/zombie/init/
+# @within ancestral_beats:asset/mob/drowned/init/
 
 # set data
     #data modify storage ancestral_beats:mob data.CustomName set value {"text":"name"}
@@ -10,11 +10,11 @@
 
     #data modify storage ancestral_beats:mob data.active_effects set value [{id:"",duration:-1,"amplifier":0,"show_particles":false}]
 
-    execute unless items entity @s armor.head * run data modify storage ancestral_beats:mob data.equipment.head set value {"id":"leather_helmet","components":{dyed_color:1420677}}
+    execute unless items entity @s armor.head * run data modify storage ancestral_beats:mob data.equipment.head set value {"id":"leather_helmet","components":{dyed_color:747670}}
     #data modify storage ancestral_beats:mob data.equipment.chest set value {"id":"diamond_chestplate"}
     #data modify storage ancestral_beats:mob data.equipment.legs set value {"id":"diamond_leggings"}
     #data modify storage ancestral_beats:mob data.equipment.feet set value {"id":"diamond_boots"}
-    #data modify storage ancestral_beats:mob data.equipment.mainhand set value {"id":"diamond_sword"}
+    execute unless items entity @s weapon.mainhand * run data modify storage ancestral_beats:mob data.equipment.mainhand set value {"id":"wooden_sword"}
     #data modify storage ancestral_beats:mob data.equipment.offhand set value {"id":"shield"}
 
     #data modify storage ancestral_beats:mob data.DeathLootTable set value "entities/allay"
