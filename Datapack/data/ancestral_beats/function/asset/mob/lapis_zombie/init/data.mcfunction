@@ -27,6 +27,10 @@
 
     data modify storage ancestral_beats:mob data.Glowing set value 1b
 
+    data modify storage ancestral_beats:mob data.drop_chances set value {"head":0.0f,"chest":0.0f,"legs":0.0f,"feet":0.0f}
+
+    data modify storage ancestral_beats:mob data.CanPickUpLoot set value 0b
+
 # define attribute
     data modify storage ancestral_beats:mob data.health set value 46.0
     #data modify storage ancestral_beats:mob data.damage set value 1024.0

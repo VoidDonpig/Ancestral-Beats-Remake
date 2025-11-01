@@ -15,6 +15,8 @@
     execute if data storage ancestral_beats:mob data.NoAI run data modify entity @s NoAI set from storage ancestral_beats:mob data.NoAI
     execute if data storage ancestral_beats:mob data.NoGravity run data modify entity @s NoGravity set from storage ancestral_beats:mob data.NoGravity
     execute if data storage ancestral_beats:mob data.Glowing run data modify entity @s Glowing set from storage ancestral_beats:mob data.Glowing
+    execute if data storage ancestral_beats:mob data.drop_chances run data modify entity @s drop_chances set from storage ancestral_beats:mob data.drop_chances
+    execute if data storage ancestral_beats:mob data.CanPickUpLoot run data modify entity @s CanPickUpLoot set from storage ancestral_beats:mob data.CanPickUpLoot
 
     execute if data storage ancestral_beats:mob data.armor run function ancestral_beats:mob/init/attribute/armor.m with storage ancestral_beats:mob data
     execute if data storage ancestral_beats:mob data.armor_toughness run function ancestral_beats:mob/init/attribute/armor_toughness.m with storage ancestral_beats:mob data
