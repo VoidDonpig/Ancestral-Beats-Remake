@@ -1,0 +1,11 @@
+{
+    "condition": "value_check",
+    "range": {
+        "min": 1
+    },
+    "value": {
+        "type": "score",
+        "score": "donpig_ab.autokill_timer",
+        "target": "this"
+    }
+}

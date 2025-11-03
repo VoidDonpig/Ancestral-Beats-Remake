@@ -52,3 +52,4 @@
 
 # define boss
     #data modify storage ancestral_beats:mob data.boss set value 1b
+    #data modify storage ancestral_beats:mob data.is_enabled_sync_bossbar set value 1b

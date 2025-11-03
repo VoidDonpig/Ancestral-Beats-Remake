@@ -17,3 +17,6 @@
 
 # asset object tick
     execute as @e[tag=donpig_ab.asset.object] at @s run function ancestral_beats:asset/object/m with entity @s data.donpig_ab.asset.object
+
+# autokill
+    execute as @e[tag=donpig_ab.autokill] at @s run function ancestral_beats:lib/autokill/

@@ -8,6 +8,7 @@
     scoreboard objectives add donpig_ab.constant dummy
     scoreboard objectives add donpig_ab.temporary dummy
     scoreboard objectives add donpig_ab.world dummy
+    scoreboard objectives add donpig_ab.autokill_timer dummy
 
 # item related
     scoreboard objectives add donpig_ab.asset.item.shortbow_cooltime dummy
@@ -34,6 +35,7 @@
     scoreboard objectives add donpig_ab.asset.mob.count_3 dummy
     scoreboard objectives add donpig_ab.asset.mob.count_4 dummy
     scoreboard objectives add donpig_ab.asset.mob.count_5 dummy
+    scoreboard objectives add donpig_ab.asset.mob.death_timer_1 dummy
     scoreboard objectives add donpig_ab.asset.mob.id dummy
     scoreboard objectives add donpig_ab.asset.mob.health dummy
     scoreboard objectives add donpig_ab.asset.mob.max_health dummy

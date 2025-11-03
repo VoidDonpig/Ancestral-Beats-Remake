@@ -20,4 +20,4 @@
 # reset
     scoreboard players reset $damage donpig_ab.temporary
     data modify entity @s AbsorptionAmount set value 2048.0f
-    data modify entity @s Health set value 1024.0f
+    data modify entity @s[predicate=!ancestral_beats:asset/mob/is_enabled_sync_bossbar] Health set value 1024.0f

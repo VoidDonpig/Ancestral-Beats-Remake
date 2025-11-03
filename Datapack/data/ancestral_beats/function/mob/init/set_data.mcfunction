@@ -47,6 +47,6 @@
     execute store result entity @s Health float 1.0 run attribute @s minecraft:max_health get
 
 # set boss
-    execute unless data storage ancestral_beats:mob data.boss run data modify entity @s data.mob.boss set value 0b
-    execute if data storage ancestral_beats:mob data.boss run data modify entity @s data.mob.boss set from storage ancestral_beats:mob data.boss
+    execute unless data storage ancestral_beats:mob data.boss run data modify entity @s data.donpig_ab.asset.mob.boss set value 0b
+    execute if data storage ancestral_beats:mob data.boss run data modify entity @s data.donpig_ab.asset.mob.boss set from storage ancestral_beats:mob data.boss
     execute if predicate ancestral_beats:asset/mob/is_boss run function ancestral_beats:mob/init/boss_set_data
