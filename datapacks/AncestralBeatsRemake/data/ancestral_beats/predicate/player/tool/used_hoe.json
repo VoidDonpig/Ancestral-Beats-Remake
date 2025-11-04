@@ -1,0 +1,71 @@
+{
+    "condition": "any_of",
+    "terms": [
+        {
+            "condition": "value_check",
+            "range": {
+                "min": 1
+            },
+            "value": {
+                "type": "score",
+                "target": "this",
+                "score": "donpig_ab.asset.item.used_wooden_hoe"
+            }
+        },
+        {
+            "condition": "value_check",
+            "range": {
+                "min": 1
+            },
+            "value": {
+                "type": "score",
+                "target": "this",
+                "score": "donpig_ab.asset.item.used_golden_hoe"
+            }
+        },
+        {
+            "condition": "value_check",
+            "range": {
+                "min": 1
+            },
+            "value": {
+                "type": "score",
+                "target": "this",
+                "score": "donpig_ab.asset.item.used_stone_hoe"
+            }
+        },
+        {
+            "condition": "value_check",
+            "range": {
+                "min": 1
+            },
+            "value": {
+                "type": "score",
+                "target": "this",
+                "score": "donpig_ab.asset.item.used_iron_hoe"
+            }
+        },
+        {
+            "condition": "value_check",
+            "range": {
+                "min": 1
+            },
+            "value": {
+                "type": "score",
+                "target": "this",
+                "score": "donpig_ab.asset.item.used_diamond_hoe"
+            }
+        },
+        {
+            "condition": "value_check",
+            "range": {
+                "min": 1
+            },
+            "value": {
+                "type": "score",
+                "target": "this",
+                "score": "donpig_ab.asset.item.used_netherite_hoe"
+            }
+        }
+    ]
+}

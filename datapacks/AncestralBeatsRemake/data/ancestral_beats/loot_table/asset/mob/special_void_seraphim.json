@@ -1,0 +1,19 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "loot_table",
+          "value": "ancestral_beats:asset/item/material/void_soul",
+          "functions":[
+            {
+              "function":"minecraft:set_count",
+              "count":1
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

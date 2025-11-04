@@ -6,3 +6,4 @@ server-env.sh
 js/
 .vscode/
 spyglass.json
+.gitignore

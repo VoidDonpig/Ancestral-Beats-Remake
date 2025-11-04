@@ -1,0 +1,1196 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "written_book",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_written_book_pages",
+                            "pages": [
+                                [
+                                    "",
+                                    {
+                                        "text": "♦ Ancestral Dragon Ingot",
+                                        "color": "black",
+                                        "bold": true
+                                    },
+                                    "\n",
+                                    {
+                                        "text": "                        ",
+                                        "color": "black",
+                                        "strikethrough": true
+                                    },
+                                    "\n",
+                                    {
+                                        "text": "█ ",
+                                        "color": "black",
+                                        "extra": [
+                                            {
+                                                "text": "Dragon Ingot",
+                                                "color": "black",
+                                                "extra": [
+                                                    {
+                                                        "text": " ×1",
+                                                        "color": "black"
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    "\n",
+                                    {
+                                        "text": "█ ",
+                                        "color": "red",
+                                        "extra": [
+                                            {
+                                                "text": "Ancestral Dragon Fragment",
+                                                "color": "black",
+                                                "extra": [
+                                                    {
+                                                        "text": " ×1",
+                                                        "color": "black"
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    "\n",
+                                    {
+                                        "text": "█ ",
+                                        "color": "dark_purple",
+                                        "extra": [
+                                            {
+                                                "text": "Void Soul",
+                                                "color": "black",
+                                                "extra": [
+                                                    {
+                                                        "text": " ×1",
+                                                        "color": "black"
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    "\n",
+                                    "\n",
+                                    {
+                                        "text": "                        ",
+                                        "color": "black",
+                                        "strikethrough": true
+                                    },
+                                    "\n",
+                                    {
+                                        "text": "♦ Pattern",
+                                        "color": "black",
+                                        "bold": true
+                                    },
+                                    "\n",
+                                    {
+                                        "text": "　　　　█",
+                                        "color": "dark_purple",
+                                        "extra": [
+                                            {
+                                                "text": "█",
+                                                "color": "red",
+                                                "extra": [
+                                                    {
+                                                        "text": "█",
+                                                        "color": "dark_purple"
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    "\n",
+                                    {
+                                        "text": "　　　　█",
+                                        "color": "red",
+                                        "extra": [
+                                            {
+                                                "text": "█",
+                                                "color": "black",
+                                                "extra": [
+                                                    {
+                                                        "text": "█",
+                                                        "color": "red"
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    "\n",
+                                    {
+                                        "text": "　　　　█",
+                                        "color": "dark_purple",
+                                        "extra": [
+                                            {
+                                                "text": "█",
+                                                "color": "red",
+                                                "extra": [
+                                                    {
+                                                        "text": "█",
+                                                        "color": "dark_purple"
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ],
+                                [
+                                    "",
+                                    {
+                                        "text": "♦ Ancestral Dragon Sword",
+                                        "color": "black",
+                                        "bold": true
+                                    },
+                                    "\n",
+                                    {
+                                        "text": "                        ",
+                                        "color": "black",
+                                        "strikethrough": true
+                                    },
+                                    "\n",
+                                    {
+                                        "text": "█ ",
+                                        "color": "red",
+                                        "extra": [
+                                            {
+                                                "text": "Ancestral Dragon Fragment",
+                                                "color": "black",
+                                                "extra": [
+                                                    {
+                                                        "text": " ×1",
+                                                        "color": "black"
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    "\n",
+                                    {
+                                        "text": "█ ",
+                                        "color": "black",
+                                        "extra": [
+                                            {
+                                                "text": "Dragon Sword",
+                                                "color": "black",
+                                                "extra": [
+                                                    {
+                                                        "text": " ×1",
+                                                        "color": "black"
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    "\n",
+                                    "\n",
+                                    "\n",
+                                    {
+                                        "text": "                        ",
+                                        "color": "black",
+                                        "strikethrough": true
+                                    },
+                                    "\n",
+                                    {
+                                        "text": "♦ Pattern",
+                                        "color": "black",
+                                        "bold": true
+                                    },
+                                    "\n",
+                                    {
+                                        "text": "　　　　█",
+                                        "color": "white",
+                                        "extra": [
+                                            {
+                                                "text": "█",
+                                                "color": "red",
+                                                "extra": [
+                                                    {
+                                                        "text": "█",
+                                                        "color": "white"
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    "\n",
+                                    {
+                                        "text": "　　　　█",
+                                        "color": "red",
+                                        "extra": [
+                                            {
+                                                "text": "█",
+                                                "color": "black",
+                                                "extra": [
+                                                    {
+                                                        "text": "█",
+                                                        "color": "red"
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    "\n",
+                                    {
+                                        "text": "　　　　█",
+                                        "color": "white",
+                                        "extra": [
+                                            {
+                                                "text": "█",
+                                                "color": "red",
+                                                "extra": [
+                                                    {
+                                                        "text": "█",
+                                                        "color": "white"
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ],
+                                [
+                                    "",
+                                    {
+                                        "text": "♦ Ancestral Dragon Head",
+                                        "color": "black",
+                                        "bold": true
+                                    },
+                                    "\n",
+                                    {
+                                        "text": "                        ",
+                                        "color": "black",
+                                        "strikethrough": true
+                                    },
+                                    "\n",
+                                    {
+                                        "text": "█ ",
+                                        "color": "red",
+                                        "extra": [
+                                            {
+                                                "text": "Ancestral Dragon Fragment",
+                                                "color": "black",
+                                                "extra": [
+                                                    {
+                                                        "text": " ×1",
+                                                        "color": "black"
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    "\n",
+                                    {
+                                        "text": "█ ",
+                                        "color": "black",
+                                        "extra": [
+                                            {
+                                                "text": "Dragon Head",
+                                                "color": "black",
+                                                "extra": [
+                                                    {
+                                                        "text": " ×1",
+                                                        "color": "black"
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    "\n",
+                                    "\n",
+                                    "\n",
+                                    {
+                                        "text": "                        ",
+                                        "color": "black",
+                                        "strikethrough": true
+                                    },
+                                    "\n",
+                                    {
+                                        "text": "♦ Pattern",
+                                        "color": "black",
+                                        "bold": true
+                                    },
+                                    "\n",
+                                    {
+                                        "text": "　　　　█",
+                                        "color": "white",
+                                        "extra": [
+                                            {
+                                                "text": "█",
+                                                "color": "red",
+                                                "extra": [
+                                                    {
+                                                        "text": "█",
+                                                        "color": "white"
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    "\n",
+                                    {
+                                        "text": "　　　　█",
+                                        "color": "red",
+                                        "extra": [
+                                            {
+                                                "text": "█",
+                                                "color": "black",
+                                                "extra": [
+                                                    {
+                                                        "text": "█",
+                                                        "color": "red"
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    "\n",
+                                    {
+                                        "text": "　　　　█",
+                                        "color": "white",
+                                        "extra": [
+                                            {
+                                                "text": "█",
+                                                "color": "red",
+                                                "extra": [
+                                                    {
+                                                        "text": "█",
+                                                        "color": "white"
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ],
+                                [
+                                    "",
+                                    {
+                                        "text": "♦ Ancestral Dragon Chestplate",
+                                        "color": "black",
+                                        "bold": true
+                                    },
+                                    "\n",
+                                    {
+                                        "text": "                        ",
+                                        "color": "black",
+                                        "strikethrough": true
+                                    },
+                                    "\n",
+                                    {
+                                        "text": "█ ",
+                                        "color": "red",
+                                        "extra": [
+                                            {
+                                                "text": "Ancestral Dragon Fragment",
+                                                "color": "black",
+                                                "extra": [
+                                                    {
+                                                        "text": " ×1",
+                                                        "color": "black"
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    "\n",
+                                    {
+                                        "text": "█ ",
+                                        "color": "black",
+                                        "extra": [
+                                            {
+                                                "text": "Dragon Chestplate",
+                                                "color": "black",
+                                                "extra": [
+                                                    {
+                                                        "text": " ×1",
+                                                        "color": "black"
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    "\n",
+                                    "\n",
+                                    {
+                                        "text": "                        ",
+                                        "color": "black",
+                                        "strikethrough": true
+                                    },
+                                    "\n",
+                                    {
+                                        "text": "♦ Pattern",
+                                        "color": "black",
+                                        "bold": true
+                                    },
+                                    "\n",
+                                    {
+                                        "text": "　　　　█",
+                                        "color": "white",
+                                        "extra": [
+                                            {
+                                                "text": "█",
+                                                "color": "red",
+                                                "extra": [
+                                                    {
+                                                        "text": "█",
+                                                        "color": "white"
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    "\n",
+                                    {
+                                        "text": "　　　　█",
+                                        "color": "red",
+                                        "extra": [
+                                            {
+                                                "text": "█",
+                                                "color": "black",
+                                                "extra": [
+                                                    {
+                                                        "text": "█",
+                                                        "color": "red"
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    "\n",
+                                    {
+                                        "text": "　　　　█",
+                                        "color": "white",
+                                        "extra": [
+                                            {
+                                                "text": "█",
+                                                "color": "red",
+                                                "extra": [
+                                                    {
+                                                        "text": "█",
+                                                        "color": "white"
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ],
+                                [
+                                    "",
+                                    {
+                                        "text": "♦ Ancestral Dragon Leggings",
+                                        "color": "black",
+                                        "bold": true
+                                    },
+                                    "\n",
+                                    {
+                                        "text": "                        ",
+                                        "color": "black",
+                                        "strikethrough": true
+                                    },
+                                    "\n",
+                                    {
+                                        "text": "█ ",
+                                        "color": "red",
+                                        "extra": [
+                                            {
+                                                "text": "Ancestral Dragon Fragment",
+                                                "color": "black",
+                                                "extra": [
+                                                    {
+                                                        "text": " ×1",
+                                                        "color": "black"
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    "\n",
+                                    {
+                                        "text": "█ ",
+                                        "color": "black",
+                                        "extra": [
+                                            {
+                                                "text": "Dragon Leggings",
+                                                "color": "black",
+                                                "extra": [
+                                                    {
+                                                        "text": " ×1",
+                                                        "color": "black"
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    "\n",
+                                    "\n",
+                                    "\n",
+                                    {
+                                        "text": "                        ",
+                                        "color": "black",
+                                        "strikethrough": true
+                                    },
+                                    "\n",
+                                    {
+                                        "text": "♦ Pattern",
+                                        "color": "black",
+                                        "bold": true
+                                    },
+                                    "\n",
+                                    {
+                                        "text": "　　　　█",
+                                        "color": "white",
+                                        "extra": [
+                                            {
+                                                "text": "█",
+                                                "color": "red",
+                                                "extra": [
+                                                    {
+                                                        "text": "█",
+                                                        "color": "white"
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    "\n",
+                                    {
+                                        "text": "　　　　█",
+                                        "color": "red",
+                                        "extra": [
+                                            {
+                                                "text": "█",
+                                                "color": "black",
+                                                "extra": [
+                                                    {
+                                                        "text": "█",
+                                                        "color": "red"
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    "\n",
+                                    {
+                                        "text": "　　　　█",
+                                        "color": "white",
+                                        "extra": [
+                                            {
+                                                "text": "█",
+                                                "color": "red",
+                                                "extra": [
+                                                    {
+                                                        "text": "█",
+                                                        "color": "white"
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ],
+                                [
+                                    "",
+                                    {
+                                        "text": "♦ Ancestral Dragon Boots",
+                                        "color": "black",
+                                        "bold": true
+                                    },
+                                    "\n",
+                                    {
+                                        "text": "                        ",
+                                        "color": "black",
+                                        "strikethrough": true
+                                    },
+                                    "\n",
+                                    {
+                                        "text": "█ ",
+                                        "color": "red",
+                                        "extra": [
+                                            {
+                                                "text": "Ancestral Dragon Fragment",
+                                                "color": "black",
+                                                "extra": [
+                                                    {
+                                                        "text": " ×1",
+                                                        "color": "black"
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    "\n",
+                                    {
+                                        "text": "█ ",
+                                        "color": "black",
+                                        "extra": [
+                                            {
+                                                "text": "Dragon Boots",
+                                                "color": "black",
+                                                "extra": [
+                                                    {
+                                                        "text": " ×1",
+                                                        "color": "black"
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    "\n",
+                                    "\n",
+                                    "\n",
+                                    {
+                                        "text": "                        ",
+                                        "color": "black",
+                                        "strikethrough": true
+                                    },
+                                    "\n",
+                                    {
+                                        "text": "♦ Pattern",
+                                        "color": "black",
+                                        "bold": true
+                                    },
+                                    "\n",
+                                    {
+                                        "text": "　　　　█",
+                                        "color": "white",
+                                        "extra": [
+                                            {
+                                                "text": "█",
+                                                "color": "red",
+                                                "extra": [
+                                                    {
+                                                        "text": "█",
+                                                        "color": "white"
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    "\n",
+                                    {
+                                        "text": "　　　　█",
+                                        "color": "red",
+                                        "extra": [
+                                            {
+                                                "text": "█",
+                                                "color": "black",
+                                                "extra": [
+                                                    {
+                                                        "text": "█",
+                                                        "color": "red"
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    "\n",
+                                    {
+                                        "text": "　　　　█",
+                                        "color": "white",
+                                        "extra": [
+                                            {
+                                                "text": "█",
+                                                "color": "red",
+                                                "extra": [
+                                                    {
+                                                        "text": "█",
+                                                        "color": "white"
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ],
+                                [
+                                    "",
+                                    {
+                                        "text": "♦ Rod of Transcendental",
+                                        "color": "black",
+                                        "bold": true
+                                    },
+                                    "\n",
+                                    {
+                                        "text": "                        ",
+                                        "color": "black",
+                                        "strikethrough": true
+                                    },
+                                    "\n",
+                                    {
+                                        "text": "█ ",
+                                        "color": "dark_red",
+                                        "extra": [
+                                            {
+                                                "text": "Ancestral Dragon Ingot",
+                                                "color": "black",
+                                                "extra": [
+                                                    {
+                                                        "text": " ×4",
+                                                        "color": "black"
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    "\n",
+                                    {
+                                        "text": "█ ",
+                                        "color": "black",
+                                        "extra": [
+                                            {
+                                                "text": "Void Handle",
+                                                "color": "black",
+                                                "extra": [
+                                                    {
+                                                        "text": " ×1",
+                                                        "color": "black"
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    "\n",
+                                    {
+                                        "text": "█ ",
+                                        "color": "dark_purple",
+                                        "extra": [
+                                            {
+                                                "text": "Void Soul",
+                                                "color": "black",
+                                                "extra": [
+                                                    {
+                                                        "text": " ×64",
+                                                        "color": "black"
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    "\n",
+                                    "\n",
+                                    {
+                                        "text": "                        ",
+                                        "color": "black",
+                                        "strikethrough": true
+                                    },
+                                    "\n",
+                                    {
+                                        "text": "♦ Pattern",
+                                        "color": "black",
+                                        "bold": true
+                                    },
+                                    "\n",
+                                    {
+                                        "text": "　　　　█",
+                                        "color": "white",
+                                        "extra": [
+                                            {
+                                                "text": "█",
+                                                "color": "white",
+                                                "extra": [
+                                                    {
+                                                        "text": "█",
+                                                        "color": "dark_red"
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    "\n",
+                                    {
+                                        "text": "　　　　█",
+                                        "color": "white",
+                                        "extra": [
+                                            {
+                                                "text": "█",
+                                                "color": "black",
+                                                "extra": [
+                                                    {
+                                                        "text": "█",
+                                                        "color": "white"
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    "\n",
+                                    {
+                                        "text": "　　　　█",
+                                        "color": "dark_purple",
+                                        "extra": [
+                                            {
+                                                "text": "█",
+                                                "color": "white",
+                                                "extra": [
+                                                    {
+                                                        "text": "█",
+                                                        "color": "white"
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ],
+                                [
+                                    "",
+                                    {
+                                        "text": "♦ Ancestral Dragon Bow",
+                                        "color": "black",
+                                        "bold": true
+                                    },
+                                    "\n",
+                                    {
+                                        "text": "                        ",
+                                        "color": "black",
+                                        "strikethrough": true
+                                    },
+                                    "\n",
+                                    {
+                                        "text": "█ ",
+                                        "color": "dark_red",
+                                        "extra": [
+                                            {
+                                                "text": "Ancestral Dragon Ingot",
+                                                "color": "black",
+                                                "extra": [
+                                                    {
+                                                        "text": " ×1",
+                                                        "color": "black"
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    "\n",
+                                    {
+                                        "text": "█ ",
+                                        "color": "black",
+                                        "extra": [
+                                            {
+                                                "text": "Dragon Bow",
+                                                "color": "black",
+                                                "extra": [
+                                                    {
+                                                        "text": " ×1",
+                                                        "color": "black"
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    "\n",
+                                    {
+                                        "text": "█ ",
+                                        "color": "dark_purple",
+                                        "extra": [
+                                            {
+                                                "text": "Void Soul",
+                                                "color": "black",
+                                                "extra": [
+                                                    {
+                                                        "text": " ×16",
+                                                        "color": "black"
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    "\n",
+                                    {
+                                        "text": "█ ",
+                                        "color": "gold",
+                                        "extra": [
+                                            {
+                                                "text": "Masterpiece String",
+                                                "color": "black",
+                                                "extra": [
+                                                    {
+                                                        "text": " ×8",
+                                                        "color": "black"
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    "\n",
+                                    {
+                                        "text": "                        ",
+                                        "color": "black",
+                                        "strikethrough": true
+                                    },
+                                    "\n",
+                                    {
+                                        "text": "♦ Pattern",
+                                        "color": "black",
+                                        "bold": true
+                                    },
+                                    "\n",
+                                    {
+                                        "text": "　　　　█",
+                                        "color": "dark_purple",
+                                        "extra": [
+                                            {
+                                                "text": "█",
+                                                "color": "dark_red",
+                                                "extra": [
+                                                    {
+                                                        "text": "█",
+                                                        "color": "gold"
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    "\n",
+                                    {
+                                        "text": "　　　　█",
+                                        "color": "dark_red",
+                                        "extra": [
+                                            {
+                                                "text": "█",
+                                                "color": "black",
+                                                "extra": [
+                                                    {
+                                                        "text": "█",
+                                                        "color": "gold"
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    "\n",
+                                    {
+                                        "text": "　　　　█",
+                                        "color": "dark_purple",
+                                        "extra": [
+                                            {
+                                                "text": "█",
+                                                "color": "dark_red",
+                                                "extra": [
+                                                    {
+                                                        "text": "█",
+                                                        "color": "gold"
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ],
+                                [
+                                    "",
+                                    {
+                                        "text": "♦ Ancestral Wing",
+                                        "color": "black",
+                                        "bold": true
+                                    },
+                                    "\n",
+                                    {
+                                        "text": "                        ",
+                                        "color": "black",
+                                        "strikethrough": true
+                                    },
+                                    "\n",
+                                    {
+                                        "text": "█ ",
+                                        "color": "dark_red",
+                                        "extra": [
+                                            {
+                                                "text": "Ancestral Dragon Ingot",
+                                                "color": "black",
+                                                "extra": [
+                                                    {
+                                                        "text": " ×1",
+                                                        "color": "black"
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    "\n",
+                                    {
+                                        "text": "█ ",
+                                        "color": "black",
+                                        "extra": [
+                                            {
+                                                "translate": "item.minecraft.elytra",
+                                                "color": "black",
+                                                "extra": [
+                                                    {
+                                                        "text": " ×1",
+                                                        "color": "black"
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    "\n",
+                                    {
+                                        "text": "█ ",
+                                        "color": "dark_purple",
+                                        "extra": [
+                                            {
+                                                "text": "Void Soul",
+                                                "color": "black",
+                                                "extra": [
+                                                    {
+                                                        "text": " ×16",
+                                                        "color": "black"
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    "\n",
+                                    {
+                                        "text": "█ ",
+                                        "color": "yellow",
+                                        "extra": [
+                                            {
+                                                "text": "Dropship Membrane",
+                                                "color": "black",
+                                                "extra": [
+                                                    {
+                                                        "text": " ×64",
+                                                        "color": "black"
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    "\n",
+                                    {
+                                        "text": "                        ",
+                                        "color": "black",
+                                        "strikethrough": true
+                                    },
+                                    "\n",
+                                    {
+                                        "text": "♦ Pattern",
+                                        "color": "black",
+                                        "bold": true
+                                    },
+                                    "\n",
+                                    {
+                                        "text": "　　　　█",
+                                        "color": "dark_red",
+                                        "extra": [
+                                            {
+                                                "text": "█",
+                                                "color": "dark_purple",
+                                                "extra": [
+                                                    {
+                                                        "text": "█",
+                                                        "color": "dark_red"
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    "\n",
+                                    {
+                                        "text": "　　　　█",
+                                        "color": "yellow",
+                                        "extra": [
+                                            {
+                                                "text": "█",
+                                                "color": "black",
+                                                "extra": [
+                                                    {
+                                                        "text": "█",
+                                                        "color": "yellow"
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    "\n",
+                                    {
+                                        "text": "　　　　█",
+                                        "color": "yellow",
+                                        "extra": [
+                                            {
+                                                "text": "█",
+                                                "color": "dark_red",
+                                                "extra": [
+                                                    {
+                                                        "text": "█",
+                                                        "color": "yellow"
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            ],
+                            "mode": "replace_all"
+                        },
+                        {
+                            "function": "minecraft:set_lore",
+                            "entity": "this",
+                            "lore": [
+                                {
+                                    "text": "Recipes of ",
+                                    "color": "gray",
+                                    "italic": false
+                                },
+                                {
+                                    "text": "Ancestral Dragon Series",
+                                    "color": "red",
+                                    "italic": false
+                                },
+                                {
+                                    "text": "are written.",
+                                    "color": "gray",
+                                    "italic": false
+                                },
+                                {
+                                    "text": "                         ",
+                                    "color": "dark_gray",
+                                    "strikethrough": true
+                                },
+                                {
+                                    "text": "‣ Recipe book",
+                                    "extra": [
+                                        {
+                                            "text": "【",
+                                            "extra": [
+                                                {
+                                                    "text": "✪✪✪✪✪✪✪",
+                                                    "color": "red",
+                                                    "extra": [
+                                                        {
+                                                            "text": "】",
+                                                            "color": "white"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ],
+                                    "color": "white",
+                                    "italic": false
+                                }
+                            ],
+                            "mode": "replace_all"
+                        },
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{donpig_ab:{asset:{item:{custom_item:1b,custom_item_id:\"ancestral_dragon_series_recipe_book\"}}}}"
+                        },
+                        {
+                            "function": "minecraft:set_name",
+                            "entity": "this",
+                            "target": "item_name",
+                            "name": {
+                                "text": "۞۞۞ Ancestral Dragon Series ۞۞۞",
+                                "color": "red",
+                                "italic": false
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

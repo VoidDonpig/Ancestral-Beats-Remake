@@ -1,0 +1,9 @@
+{
+    "condition": "location_check",
+    "predicate": {
+        "block": {
+            "blocks": "dropper"
+        }
+    },
+    "offsetY": -1
+}
