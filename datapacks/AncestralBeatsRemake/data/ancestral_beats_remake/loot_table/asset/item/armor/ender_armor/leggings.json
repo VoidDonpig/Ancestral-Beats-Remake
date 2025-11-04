@@ -1,0 +1,162 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:leather_leggings",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "minecraft:unbreakable": {},
+                                "minecraft:dyed_color": 1908001,
+                                "repair_cost": 255,
+                                "minecraft:tooltip_display": {
+                                    "hidden_components": [
+                                        "attribute_modifiers",
+                                        "unbreakable",
+                                        "dyed_color"
+                                    ]
+                                },
+                                "enchantments":{
+                                    "protection": 4,
+                                    "thorns": 3
+                                }
+                            }
+                        },
+                        {
+                            "function": "minecraft:set_lore",
+                            "entity": "this",
+                            "lore": [
+                                {
+                                    "text": "‣ Full Set Bonus: Ender Sympathy",
+                                    "color": "white",
+                                    "italic": false
+                                },
+                                {
+                                    "text": "Prevents Enderman becoming hostile",
+                                    "color": "gray",
+                                    "italic": false
+                                },
+                                {
+                                    "text": "while fighting Ender Dragon.",
+                                    "color": "gray",
+                                    "italic": false
+                                },
+                                {
+                                    "text": "        ",
+                                    "color": "dark_gray",
+                                    "strikethrough": true,
+                                    "italic": false,
+                                    "extra": [
+                                        {
+                                            "text": "Status",
+                                            "strikethrough": false,
+                                            "extra": [
+                                                {
+                                                    "text": "         ",
+                                                    "strikethrough": true
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "text": "‣ Armor: ",
+                                    "extra": [
+                                        {
+                                            "text": "+2",
+                                            "color": "green"
+                                        }
+                                    ],
+                                    "color": "white",
+                                    "italic": false
+                                },
+                                {
+                                    "text": "‣ Max Health: ",
+                                    "extra": [
+                                        {
+                                            "text": "+8",
+                                            "color": "green"
+                                        }
+                                    ],
+                                    "color": "white",
+                                    "italic": false
+                                },
+                                {
+                                    "text": "                         ",
+                                    "color": "dark_gray",
+                                    "strikethrough": true
+                                },
+                                {
+                                    "text": "‣ Leggings（Unbreakable）",
+                                    "extra": [
+                                        {
+                                            "text": "【",
+                                            "extra": [
+                                                {
+                                                    "text": "✪✪✪✪",
+                                                    "color": "dark_purple",
+                                                    "extra": [
+                                                        {
+                                                            "text": "✪",
+                                                            "color": "dark_gray",
+                                                            "extra": [
+                                                                {
+                                                                    "text": "】",
+                                                                    "color": "white"
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ],
+                                    "color": "white",
+                                    "italic": false
+                                }
+                            ],
+                            "mode": "replace_all"
+                        },
+                        {
+                            "function": "minecraft:set_attributes",
+                            "modifiers": [
+                                {
+                                    "id": "ancestral_beats_remake:asset.item.armor.ender_armor_leggings",
+                                    "attribute": "minecraft:armor",
+                                    "amount": 2,
+                                    "operation": "add_value",
+                                    "slot": "legs"
+                                },
+                                {
+                                    "id": "ancestral_beats_remake:asset.item.max_health.ender_armor_leggings",
+                                    "attribute": "minecraft:max_health",
+                                    "amount": 8,
+                                    "operation": "add_value",
+                                    "slot": "legs"
+                                }
+                            ]
+                        },
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{donpig_ab:{asset:{item:{custom_item:1b,custom_item_id:\"ender_armor_leggings\"}}}}"
+                        },
+                        {
+                            "function": "minecraft:set_name",
+                            "entity": "this",
+                            "target": "item_name",
+                            "name": {
+                                "text": "Ender Leggings",
+                                "color": "dark_purple",
+                                "italic": false
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,142 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:leather_boots",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "minecraft:unbreakable": {},
+                                "minecraft:dyed_color": 16383998,
+                                "repair_cost": 255,
+                                "minecraft:tooltip_display": {
+                                    "hidden_components": [
+                                        "attribute_modifiers",
+                                        "unbreakable",
+                                        "dyed_color"
+                                    ]
+                                }
+                            }
+                        },
+                        {
+                            "function": "minecraft:set_lore",
+                            "entity": "this",
+                            "lore": [
+                                {
+                                    "text": "‣ Full Set Bonus: Turbulent Force",
+                                    "color": "white",
+                                    "italic": false
+                                },
+                                {
+                                    "text": "Grant ",
+                                    "color": "gray",
+                                    "italic": false,
+                                    "extra": [
+                                        {
+                                            "translate": "effect.minecraft.haste",
+                                            "color": "gray",
+                                            "italic": false
+                                        },
+                                        " ",
+                                        {
+                                            "translate": "potion.potency.2",
+                                            "color": "gray",
+                                            "italic": false
+                                        }
+                                    ]
+                                },
+                                {
+                                    "text": "        ",
+                                    "color": "dark_gray",
+                                    "strikethrough": true,
+                                    "italic": false,
+                                    "extra": [
+                                        {
+                                            "text": "Status",
+                                            "strikethrough": false,
+                                            "extra": [
+                                                {
+                                                    "text": "         ",
+                                                    "strikethrough": true
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "text": "‣ Armor: ",
+                                    "extra": [
+                                        {
+                                            "text": "+1",
+                                            "color": "green"
+                                        }
+                                    ],
+                                    "color": "white",
+                                    "italic": false
+                                },
+                                {
+                                    "text": "                         ",
+                                    "color": "dark_gray",
+                                    "strikethrough": true
+                                },
+                                {
+                                    "text": "‣ Boots（Unbreakable）",
+                                    "extra": [
+                                        {
+                                            "text": "【",
+                                            "extra": [
+                                                {
+                                                    "text": "✪✪✪✪✪",
+                                                    "color": "gold",
+                                                    "extra": [
+                                                        {
+                                                            "text": "】",
+                                                            "color": "white"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ],
+                                    "color": "white",
+                                    "italic": false
+                                }
+                            ],
+                            "mode": "replace_all"
+                        },
+                        {
+                            "function": "minecraft:set_attributes",
+                            "modifiers": [
+                                {
+                                    "id": "ancestral_beats_remake:asset.item.armor.sorrow_armor_boots",
+                                    "attribute": "minecraft:armor",
+                                    "amount": 1,
+                                    "operation": "add_value",
+                                    "slot": "feet"
+                                }
+                            ]
+                        },
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{donpig_ab:{asset:{item:{custom_item:1b,custom_item_id:\"sorrow_armor_boots\"}}}}"
+                        },
+                        {
+                            "function": "minecraft:set_name",
+                            "entity": "this",
+                            "target": "item_name",
+                            "name": {
+                                "text": "Sorrow Boots",
+                                "color": "gold",
+                                "italic": false
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

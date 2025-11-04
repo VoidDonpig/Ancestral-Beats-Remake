@@ -1,0 +1,9 @@
+{
+    "condition": "entity_properties",
+    "entity": "this",
+    "predicate": {
+        "vehicle": {
+            "type": "#ancestral_beats_remake:ridable_by_mob"
+        }
+    }
+}

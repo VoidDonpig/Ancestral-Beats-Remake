@@ -1,0 +1,182 @@
+{
+    "description": "",
+    "supported_items": "#minecraft:enchantable/armor",
+    "weight": 1,
+    "max_level": 1,
+    "min_cost": {
+        "base": 255,
+        "per_level_above_first": 255
+    },
+    "max_cost": {
+        "base": 255,
+        "per_level_above_first": 255
+    },
+    "anvil_cost": 0,
+    "slots": [
+        "any"
+    ],
+    "effects": {
+        "minecraft:damage_immunity": [
+            {
+                "effect": {},
+                "requirements": {
+                    "condition": "minecraft:all_of",
+                    "terms": [
+                        {
+                            "condition": "minecraft:inverted",
+                            "term": {
+                                "condition": "minecraft:damage_source_properties",
+                                "predicate": {
+                                    "tags": [
+                                        {
+                                            "id": "ancestral_beats_remake:is_ignoring_cooldown",
+                                            "expected": true
+                                        }
+                                    ]
+                                }
+                            }
+                        },
+                        {
+                            "condition": "minecraft:entity_scores",
+                            "entity": "attacker",
+                            "scores": {
+                                "donpig_ab.player.attack_cooldown": {
+                                    "min": 1,
+                                    "max": 999
+                                }
+                            }
+                        },
+                        {
+                            "condition": "minecraft:inverted",
+                            "term": {
+                                "condition": "minecraft:entity_properties",
+                                "entity": "this",
+                                "predicate": {
+                                    "nbt": "{data:{donpig_ab:{asset:{mob:{no_invul_cooldown:1b}}}}}"
+                                }
+                            }
+                        }
+                    ]
+                }
+            }
+        ],
+        "minecraft:tick": [
+            {
+                "effect": {
+                    "type": "minecraft:run_function",
+                    "function": "ancestral_beats_remake:mob/hurt/"
+                },
+                "requirements": [
+                    {
+                        "condition": "minecraft:inverted",
+                        "term": {
+                            "condition": "minecraft:entity_properties",
+                            "entity": "this",
+                            "predicate": {
+                                "nbt": "{Health:0.0f}"
+                            }
+                        }
+                    },
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "nbt": "{HurtTime:10s,data:{donpig_ab:{asset:{mob:{have_hurt_event:1b}}}}}"
+                        }
+                    }
+                ]
+            },
+            {
+                "effect": {
+                    "type": "minecraft:run_function",
+                    "function": "ancestral_beats_remake:mob/boss_health/"
+                },
+                "requirements": {
+                    "condition": "minecraft:entity_properties",
+                    "entity": "this",
+                    "predicate": {
+                        "nbt": "{HurtTime:10s,data:{donpig_ab:{asset:{mob:{boss:1b}}}}}"
+                    }
+                }
+            },
+            {
+                "effect": {
+                    "type": "minecraft:run_function",
+                    "function": "ancestral_beats_remake:lib/sync_bossbar_health/"
+                },
+                "requirements": [
+                    {
+                        "condition": "minecraft:inverted",
+                        "term": {
+                            "condition": "minecraft:entity_properties",
+                            "entity": "this",
+                            "predicate": {
+                                "nbt": "{Tags:[\"donpig_ab.asset.mob.dead\"]}"
+                            }
+                        }
+                    },
+                    {
+                        "condition": "entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "nbt": "{data:{donpig_ab:{asset:{mob:{is_enabled_sync_bossbar:1b}}}}}"
+                        }
+                    }
+                ]
+            },
+            {
+                "effect": {
+                    "type": "minecraft:run_function",
+                    "function": "ancestral_beats_remake:mob/death/loot/"
+                },
+                "requirements": [
+                    {
+                        "condition": "minecraft:inverted",
+                        "term": {
+                            "condition": "minecraft:entity_properties",
+                            "entity": "this",
+                            "predicate": {
+                                "nbt": "{DeathTime:0s}"
+                            }
+                        }
+                    },
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "nbt": "{data:{donpig_ab:{asset:{mob:{boss:0b}}}}}"
+                        }
+                    }
+                ]
+            },
+            {
+                "effect": {
+                    "type": "minecraft:run_function",
+                    "function": "ancestral_beats_remake:mob/death/"
+                },
+                "requirements": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "nbt": "{Health:0.0f,data:{donpig_ab:{asset:{mob:{have_hurt_event:1b,boss:0b}}}}}"
+                        }
+                    }
+                ]
+            },
+            {
+                "effect": {
+                    "type": "minecraft:run_function",
+                    "function": "ancestral_beats_remake:mob/death/"
+                },
+                "requirements": {
+                    "condition": "minecraft:entity_properties",
+                    "entity": "this",
+                    "predicate": {
+                        "nbt": "{Tags:[\"donpig_ab.asset.mob.dead\"],data:{donpig_ab:{asset:{mob:{boss:1b}}}}}"
+                    }
+                }
+            }
+        ]
+    }
+}
