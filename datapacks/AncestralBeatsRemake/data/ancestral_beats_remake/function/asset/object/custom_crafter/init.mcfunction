@@ -5,10 +5,10 @@
 # @within ancestral_beats_remake:world/
 
 # add object tag
-    tag @s add donpig_ab.asset.object
+    tag @s add donpig_abrm.asset.object
 
 # add data
-    data modify entity @s data.donpig_ab.asset.object.id set value custom_crafter
+    data modify entity @s data.donpig_abrm.asset.object.id set value custom_crafter
     data modify entity @s Invulnerable set value 1b
 
 # change item

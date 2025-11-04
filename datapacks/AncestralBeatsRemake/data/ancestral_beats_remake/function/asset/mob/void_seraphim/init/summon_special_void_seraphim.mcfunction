@@ -5,7 +5,7 @@
 # @within ancestral_beats_remake:asset/mob/void_seraphim/init/
 
 # summon
-    summon enderman ~ ~ ~ {Tags:["donpig_ab.asset.mob.special_mob"],data:{donpig_ab:{asset:{mob:{id:special_void_seraphim}}}}}
+    summon enderman ~ ~ ~ {Tags:["donpig_abrm.asset.mob.special_mob"],data:{donpig_abrm:{asset:{mob:{id:special_void_seraphim}}}}}
 
 
 # sfx

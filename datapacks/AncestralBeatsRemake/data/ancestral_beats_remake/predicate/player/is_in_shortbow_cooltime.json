@@ -5,7 +5,7 @@
     },
     "value": {
         "type": "score",
-        "score": "donpig_ab.asset.item.shortbow_cooltime",
+        "score": "donpig_abrm.asset.item.shortbow_cooltime",
         "target": "this"
     }
 }

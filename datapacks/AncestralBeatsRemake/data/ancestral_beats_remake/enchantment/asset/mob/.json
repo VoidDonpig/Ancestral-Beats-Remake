@@ -40,7 +40,7 @@
                             "condition": "minecraft:entity_scores",
                             "entity": "attacker",
                             "scores": {
-                                "donpig_ab.player.attack_cooldown": {
+                                "donpig_abrm.player.attack_cooldown": {
                                     "min": 1,
                                     "max": 999
                                 }
@@ -52,7 +52,7 @@
                                 "condition": "minecraft:entity_properties",
                                 "entity": "this",
                                 "predicate": {
-                                    "nbt": "{data:{donpig_ab:{asset:{mob:{no_invul_cooldown:1b}}}}}"
+                                    "nbt": "{data:{donpig_abrm:{asset:{mob:{no_invul_cooldown:1b}}}}}"
                                 }
                             }
                         }
@@ -81,7 +81,7 @@
                         "condition": "minecraft:entity_properties",
                         "entity": "this",
                         "predicate": {
-                            "nbt": "{HurtTime:10s,data:{donpig_ab:{asset:{mob:{have_hurt_event:1b}}}}}"
+                            "nbt": "{HurtTime:10s,data:{donpig_abrm:{asset:{mob:{have_hurt_event:1b}}}}}"
                         }
                     }
                 ]
@@ -95,7 +95,7 @@
                     "condition": "minecraft:entity_properties",
                     "entity": "this",
                     "predicate": {
-                        "nbt": "{HurtTime:10s,data:{donpig_ab:{asset:{mob:{boss:1b}}}}}"
+                        "nbt": "{HurtTime:10s,data:{donpig_abrm:{asset:{mob:{boss:1b}}}}}"
                     }
                 }
             },
@@ -111,7 +111,7 @@
                             "condition": "minecraft:entity_properties",
                             "entity": "this",
                             "predicate": {
-                                "nbt": "{Tags:[\"donpig_ab.asset.mob.dead\"]}"
+                                "nbt": "{Tags:[\"donpig_abrm.asset.mob.dead\"]}"
                             }
                         }
                     },
@@ -119,7 +119,7 @@
                         "condition": "entity_properties",
                         "entity": "this",
                         "predicate": {
-                            "nbt": "{data:{donpig_ab:{asset:{mob:{is_enabled_sync_bossbar:1b}}}}}"
+                            "nbt": "{data:{donpig_abrm:{asset:{mob:{is_enabled_sync_bossbar:1b}}}}}"
                         }
                     }
                 ]
@@ -144,7 +144,7 @@
                         "condition": "minecraft:entity_properties",
                         "entity": "this",
                         "predicate": {
-                            "nbt": "{data:{donpig_ab:{asset:{mob:{boss:0b}}}}}"
+                            "nbt": "{data:{donpig_abrm:{asset:{mob:{boss:0b}}}}}"
                         }
                     }
                 ]
@@ -159,7 +159,7 @@
                         "condition": "minecraft:entity_properties",
                         "entity": "this",
                         "predicate": {
-                            "nbt": "{Health:0.0f,data:{donpig_ab:{asset:{mob:{have_hurt_event:1b,boss:0b}}}}}"
+                            "nbt": "{Health:0.0f,data:{donpig_abrm:{asset:{mob:{have_hurt_event:1b,boss:0b}}}}}"
                         }
                     }
                 ]
@@ -173,7 +173,7 @@
                     "condition": "minecraft:entity_properties",
                     "entity": "this",
                     "predicate": {
-                        "nbt": "{Tags:[\"donpig_ab.asset.mob.dead\"],data:{donpig_ab:{asset:{mob:{boss:1b}}}}}"
+                        "nbt": "{Tags:[\"donpig_abrm.asset.mob.dead\"],data:{donpig_abrm:{asset:{mob:{boss:1b}}}}}"
                     }
                 }
             }

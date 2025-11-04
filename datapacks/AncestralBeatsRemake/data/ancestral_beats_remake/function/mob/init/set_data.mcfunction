@@ -34,10 +34,10 @@
 
     execute if data storage ancestral_beats_remake:mob data.AbsorptionAmount run data modify entity @s AbsorptionAmount set from storage ancestral_beats_remake:mob data.AbsorptionAmount
 
-    execute if data storage ancestral_beats_remake:mob data.have_always_action run data modify entity @s data.donpig_ab.asset.mob.have_always_action set from storage ancestral_beats_remake:mob data.have_always_action
-    execute if data storage ancestral_beats_remake:mob data.prevent_drowned run data modify entity @s data.donpig_ab.asset.mob.prevent_drowned set from storage ancestral_beats_remake:mob data.prevent_drowned
-    execute if data storage ancestral_beats_remake:mob data.have_death_event run data modify entity @s data.donpig_ab.asset.mob.have_death_event set from storage ancestral_beats_remake:mob data.have_death_event
-    execute if data storage ancestral_beats_remake:mob data.have_hurt_event run data modify entity @s data.donpig_ab.asset.mob.have_hurt_event set from storage ancestral_beats_remake:mob data.have_hurt_event
+    execute if data storage ancestral_beats_remake:mob data.have_always_action run data modify entity @s data.donpig_abrm.asset.mob.have_always_action set from storage ancestral_beats_remake:mob data.have_always_action
+    execute if data storage ancestral_beats_remake:mob data.prevent_drowned run data modify entity @s data.donpig_abrm.asset.mob.prevent_drowned set from storage ancestral_beats_remake:mob data.prevent_drowned
+    execute if data storage ancestral_beats_remake:mob data.have_death_event run data modify entity @s data.donpig_abrm.asset.mob.have_death_event set from storage ancestral_beats_remake:mob data.have_death_event
+    execute if data storage ancestral_beats_remake:mob data.have_hurt_event run data modify entity @s data.donpig_abrm.asset.mob.have_hurt_event set from storage ancestral_beats_remake:mob data.have_hurt_event
 
     execute if data storage ancestral_beats_remake:mob data.profile run data modify entity @s profile set from storage ancestral_beats_remake:mob data.profile
     execute if data storage ancestral_beats_remake:mob data.hide_description run data modify entity @s hide_description set from storage ancestral_beats_remake:mob data.hide_description
@@ -47,6 +47,6 @@
     execute store result entity @s Health float 1.0 run attribute @s minecraft:max_health get
 
 # set boss
-    execute unless data storage ancestral_beats_remake:mob data.boss run data modify entity @s data.donpig_ab.asset.mob.boss set value 0b
-    execute if data storage ancestral_beats_remake:mob data.boss run data modify entity @s data.donpig_ab.asset.mob.boss set from storage ancestral_beats_remake:mob data.boss
+    execute unless data storage ancestral_beats_remake:mob data.boss run data modify entity @s data.donpig_abrm.asset.mob.boss set value 0b
+    execute if data storage ancestral_beats_remake:mob data.boss run data modify entity @s data.donpig_abrm.asset.mob.boss set from storage ancestral_beats_remake:mob data.boss
     execute if predicate ancestral_beats_remake:asset/mob/is_boss run function ancestral_beats_remake:mob/init/boss_set_data

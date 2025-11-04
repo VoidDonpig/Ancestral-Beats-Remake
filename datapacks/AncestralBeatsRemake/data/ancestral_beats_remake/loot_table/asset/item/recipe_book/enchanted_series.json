@@ -898,7 +898,7 @@
                         },
                         {
                             "function": "minecraft:set_custom_data",
-                            "tag": "{donpig_ab:{asset:{item:{custom_item:1b,custom_item_id:\"enchanted_series_recipe_book\"}}}}"
+                            "tag": "{donpig_abrm:{asset:{item:{custom_item:1b,custom_item_id:\"enchanted_series_recipe_book\"}}}}"
                         },
                         {
                             "function": "minecraft:set_name",

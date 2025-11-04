@@ -8,4 +8,4 @@
     function ancestral_beats_remake:mob/death/loot/
 
 # run
-    function ancestral_beats_remake:mob/death/m with entity @s data.donpig_ab.asset.mob
+    function ancestral_beats_remake:mob/death/m with entity @s data.donpig_abrm.asset.mob

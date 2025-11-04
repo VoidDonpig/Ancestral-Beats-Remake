@@ -124,7 +124,7 @@
                         },
                         {
                             "function": "minecraft:set_custom_data",
-                            "tag": "{donpig_ab:{asset:{item:{custom_item:1b,custom_item_id:\"invalid_sword\"}}}}"
+                            "tag": "{donpig_abrm:{asset:{item:{custom_item:1b,custom_item_id:\"invalid_sword\"}}}}"
                         },
                         {
                             "function": "minecraft:set_name",

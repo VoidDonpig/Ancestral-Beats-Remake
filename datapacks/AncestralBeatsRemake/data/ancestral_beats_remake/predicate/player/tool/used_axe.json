@@ -9,7 +9,7 @@
             "value": {
                 "type": "score",
                 "target": "this",
-                "score": "donpig_ab.asset.item.used_wooden_axe"
+                "score": "donpig_abrm.asset.item.used_wooden_axe"
             }
         },
         {
@@ -20,7 +20,7 @@
             "value": {
                 "type": "score",
                 "target": "this",
-                "score": "donpig_ab.asset.item.used_golden_axe"
+                "score": "donpig_abrm.asset.item.used_golden_axe"
             }
         },
         {
@@ -31,7 +31,7 @@
             "value": {
                 "type": "score",
                 "target": "this",
-                "score": "donpig_ab.asset.item.used_stone_axe"
+                "score": "donpig_abrm.asset.item.used_stone_axe"
             }
         },
         {
@@ -42,7 +42,7 @@
             "value": {
                 "type": "score",
                 "target": "this",
-                "score": "donpig_ab.asset.item.used_iron_axe"
+                "score": "donpig_abrm.asset.item.used_iron_axe"
             }
         },
         {
@@ -53,7 +53,7 @@
             "value": {
                 "type": "score",
                 "target": "this",
-                "score": "donpig_ab.asset.item.used_diamond_axe"
+                "score": "donpig_abrm.asset.item.used_diamond_axe"
             }
         },
         {
@@ -64,7 +64,7 @@
             "value": {
                 "type": "score",
                 "target": "this",
-                "score": "donpig_ab.asset.item.used_netherite_axe"
+                "score": "donpig_abrm.asset.item.used_netherite_axe"
             }
         }
     ]

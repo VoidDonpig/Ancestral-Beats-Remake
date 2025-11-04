@@ -5,4 +5,4 @@
 # @handles enchantment ancestral_beats_remake:asset/mob/
 
 # run
-    function ancestral_beats_remake:mob/hurt/m with entity @s data.donpig_ab.asset.mob
+    function ancestral_beats_remake:mob/hurt/m with entity @s data.donpig_abrm.asset.mob

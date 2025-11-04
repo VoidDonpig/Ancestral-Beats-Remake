@@ -143,7 +143,7 @@
                         },
                         {
                             "function": "minecraft:set_custom_data",
-                            "tag": "{donpig_ab:{asset:{item:{custom_item:1b,custom_item_id:\"lapis_sword\"}}}}"
+                            "tag": "{donpig_abrm:{asset:{item:{custom_item:1b,custom_item_id:\"lapis_sword\"}}}}"
                         },
                         {
                             "function": "minecraft:set_name",

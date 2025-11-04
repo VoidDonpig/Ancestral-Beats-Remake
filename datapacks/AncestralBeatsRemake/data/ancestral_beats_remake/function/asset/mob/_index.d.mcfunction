@@ -9,9 +9,9 @@
 #> not init tag
 # @within function
 #   ancestral_beats_remake:asset/mob/**
-#declare tag donpig_ab.asset.mob.not_init
+#declare tag donpig_abrm.asset.mob.not_init
 
 #> death init tag
 # @within function
 #   ancestral_beats_remake:asset/mob/*/death/**
-#declare tag donpig_ab.asset.mob.already_death_init
+#declare tag donpig_abrm.asset.mob.already_death_init

@@ -2,6 +2,6 @@
     "condition": "entity_properties",
     "entity": "this",
     "predicate": {
-        "nbt": "{data:{donpig_ab:{asset:{mob:{have_always_action:1b}}}}}"
+        "nbt": "{data:{donpig_abrm:{asset:{mob:{have_always_action:1b}}}}}"
     }
 }

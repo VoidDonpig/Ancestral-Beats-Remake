@@ -5,4 +5,4 @@
 # @within mob:death/loot/
 
 # reset
-    tag @s add donpig_ab.asset.mob.already_looted
+    tag @s add donpig_abrm.asset.mob.already_looted

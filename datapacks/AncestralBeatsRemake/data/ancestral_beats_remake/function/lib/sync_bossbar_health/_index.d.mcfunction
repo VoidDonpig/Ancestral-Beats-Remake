@@ -4,10 +4,10 @@
 #> boss health
 # @within function
 #  ancestral_beats_remake:lib/sync_bossbar_health/
-#declare score_holder $donpig_ab.lib.sync_bossbar_health.health
+#declare score_holder $donpig_abrm.lib.sync_bossbar_health.health
 
 #> boss max health
 # @within function
 #  ancestral_beats_remake:lib/sync_bossbar_health/
-#declare score_holder $donpig_ab.lib.sync_bossbar_health.max_health
+#declare score_holder $donpig_abrm.lib.sync_bossbar_health.max_health
 

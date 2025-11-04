@@ -9,7 +9,7 @@
             "value": {
                 "type": "score",
                 "target": "this",
-                "score": "donpig_ab.asset.item.used_wooden_shovel"
+                "score": "donpig_abrm.asset.item.used_wooden_shovel"
             }
         },
         {
@@ -20,7 +20,7 @@
             "value": {
                 "type": "score",
                 "target": "this",
-                "score": "donpig_ab.asset.item.used_golden_shovel"
+                "score": "donpig_abrm.asset.item.used_golden_shovel"
             }
         },
         {
@@ -31,7 +31,7 @@
             "value": {
                 "type": "score",
                 "target": "this",
-                "score": "donpig_ab.asset.item.used_stone_shovel"
+                "score": "donpig_abrm.asset.item.used_stone_shovel"
             }
         },
         {
@@ -42,7 +42,7 @@
             "value": {
                 "type": "score",
                 "target": "this",
-                "score": "donpig_ab.asset.item.used_iron_shovel"
+                "score": "donpig_abrm.asset.item.used_iron_shovel"
             }
         },
         {
@@ -53,7 +53,7 @@
             "value": {
                 "type": "score",
                 "target": "this",
-                "score": "donpig_ab.asset.item.used_diamond_shovel"
+                "score": "donpig_abrm.asset.item.used_diamond_shovel"
             }
         },
         {
@@ -64,7 +64,7 @@
             "value": {
                 "type": "score",
                 "target": "this",
-                "score": "donpig_ab.asset.item.used_netherite_shovel"
+                "score": "donpig_abrm.asset.item.used_netherite_shovel"
             }
         }
     ]

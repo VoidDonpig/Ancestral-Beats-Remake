@@ -14,5 +14,5 @@
     function ancestral_beats_remake:core/load/stuff
 
 # belowname
-    scoreboard objectives setdisplay below_name donpig_ab.player.status.hp
-    scoreboard objectives modify donpig_ab.player.status.hp displayname {"text":"❤",color:"red"}
+    scoreboard objectives setdisplay below_name donpig_abrm.player.status.hp
+    scoreboard objectives modify donpig_abrm.player.status.hp displayname {"text":"❤",color:"red"}

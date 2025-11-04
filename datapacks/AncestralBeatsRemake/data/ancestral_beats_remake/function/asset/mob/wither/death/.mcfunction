@@ -5,23 +5,23 @@
 # @within ancestral_beats_remake:mob/death/m
 
 # init
-    execute unless entity @s[tag=donpig_ab.asset.mob.already_death_init] run function ancestral_beats_remake:asset/mob/wither/death/init
+    execute unless entity @s[tag=donpig_abrm.asset.mob.already_death_init] run function ancestral_beats_remake:asset/mob/wither/death/init
 
 # death
     # timer
-        scoreboard players add @s donpig_ab.asset.mob.death_timer_1 1
+        scoreboard players add @s donpig_abrm.asset.mob.death_timer_1 1
     # event
         # fatal damaged
-            execute if score @s donpig_ab.asset.mob.death_timer_1 matches 1 run function ancestral_beats_remake:asset/mob/wither/death/event/fatal_damaged
+            execute if score @s donpig_abrm.asset.mob.death_timer_1 matches 1 run function ancestral_beats_remake:asset/mob/wither/death/event/fatal_damaged
         # charging
-            execute if score @s donpig_ab.asset.mob.death_timer_1 matches 40 run function ancestral_beats_remake:asset/mob/wither/death/event/charging
+            execute if score @s donpig_abrm.asset.mob.death_timer_1 matches 40 run function ancestral_beats_remake:asset/mob/wither/death/event/charging
         # distortion
-            execute if score @s donpig_ab.asset.mob.death_timer_1 matches 100 run function ancestral_beats_remake:asset/mob/wither/death/event/distortion
+            execute if score @s donpig_abrm.asset.mob.death_timer_1 matches 100 run function ancestral_beats_remake:asset/mob/wither/death/event/distortion
         # dying
-            execute if score @s donpig_ab.asset.mob.death_timer_1 matches 140 run function ancestral_beats_remake:asset/mob/wither/death/event/dying
+            execute if score @s donpig_abrm.asset.mob.death_timer_1 matches 140 run function ancestral_beats_remake:asset/mob/wither/death/event/dying
         # pre explosion
-            execute if score @s donpig_ab.asset.mob.death_timer_1 matches 180 run function ancestral_beats_remake:asset/mob/wither/death/event/pre_explosion
+            execute if score @s donpig_abrm.asset.mob.death_timer_1 matches 180 run function ancestral_beats_remake:asset/mob/wither/death/event/pre_explosion
         # explode
-            execute if score @s donpig_ab.asset.mob.death_timer_1 matches 200 run function ancestral_beats_remake:asset/mob/wither/death/event/explode
+            execute if score @s donpig_abrm.asset.mob.death_timer_1 matches 200 run function ancestral_beats_remake:asset/mob/wither/death/event/explode
     # kill
-        execute if score @s donpig_ab.asset.mob.death_timer_1 matches 200.. run kill @s
+        execute if score @s donpig_abrm.asset.mob.death_timer_1 matches 200.. run kill @s

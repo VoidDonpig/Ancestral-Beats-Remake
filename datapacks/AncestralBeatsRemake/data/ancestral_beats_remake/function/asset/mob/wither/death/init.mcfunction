@@ -10,16 +10,16 @@
     data modify entity @s Silent set value 1b
 
 # reset score
-    scoreboard players reset @s donpig_ab.asset.mob.timer_1
-    scoreboard players reset @s donpig_ab.asset.mob.timer_2
-    scoreboard players reset @s donpig_ab.asset.mob.timer_3
-    scoreboard players reset @s donpig_ab.asset.mob.timer_4
-    scoreboard players reset @s donpig_ab.asset.mob.timer_5
-    scoreboard players reset @s donpig_ab.asset.mob.count_1
-    scoreboard players reset @s donpig_ab.asset.mob.count_2
-    scoreboard players reset @s donpig_ab.asset.mob.count_3
-    scoreboard players reset @s donpig_ab.asset.mob.count_4
-    scoreboard players reset @s donpig_ab.asset.mob.count_5
+    scoreboard players reset @s donpig_abrm.asset.mob.timer_1
+    scoreboard players reset @s donpig_abrm.asset.mob.timer_2
+    scoreboard players reset @s donpig_abrm.asset.mob.timer_3
+    scoreboard players reset @s donpig_abrm.asset.mob.timer_4
+    scoreboard players reset @s donpig_abrm.asset.mob.timer_5
+    scoreboard players reset @s donpig_abrm.asset.mob.count_1
+    scoreboard players reset @s donpig_abrm.asset.mob.count_2
+    scoreboard players reset @s donpig_abrm.asset.mob.count_3
+    scoreboard players reset @s donpig_abrm.asset.mob.count_4
+    scoreboard players reset @s donpig_abrm.asset.mob.count_5
 
 # init tag
-    tag @s add donpig_ab.asset.mob.already_death_init
+    tag @s add donpig_abrm.asset.mob.already_death_init

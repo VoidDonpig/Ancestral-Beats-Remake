@@ -5,7 +5,7 @@
     },
     "value": {
         "type": "score",
-        "score": "donpig_ab.player.id",
+        "score": "donpig_abrm.player.id",
         "target": "this"
     }
 }

@@ -4,4 +4,4 @@
 #> this tag
 # @within function
 #   mob:death/loot/**
-#declare tag donpig_ab.mob.death.this
+#declare tag donpig_abrm.mob.death.this

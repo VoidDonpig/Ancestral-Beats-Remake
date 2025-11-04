@@ -47,7 +47,7 @@
                             "condition": "minecraft:entity_properties",
                             "entity": "this",
                             "predicate": {
-                                "nbt": "{Tags:[\"donpig_ab.lib.explosion.100_100\"]}"
+                                "nbt": "{Tags:[\"donpig_abrm.lib.explosion.100_100\"]}"
                             }
                         }
                     }
