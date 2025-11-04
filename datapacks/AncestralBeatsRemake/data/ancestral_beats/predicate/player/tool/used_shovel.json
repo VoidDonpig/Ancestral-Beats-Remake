@@ -1,0 +1,71 @@
+{
+    "condition": "any_of",
+    "terms": [
+        {
+            "condition": "value_check",
+            "range": {
+                "min": 1
+            },
+            "value": {
+                "type": "score",
+                "target": "this",
+                "score": "donpig_ab.asset.item.used_wooden_shovel"
+            }
+        },
+        {
+            "condition": "value_check",
+            "range": {
+                "min": 1
+            },
+            "value": {
+                "type": "score",
+                "target": "this",
+                "score": "donpig_ab.asset.item.used_golden_shovel"
+            }
+        },
+        {
+            "condition": "value_check",
+            "range": {
+                "min": 1
+            },
+            "value": {
+                "type": "score",
+                "target": "this",
+                "score": "donpig_ab.asset.item.used_stone_shovel"
+            }
+        },
+        {
+            "condition": "value_check",
+            "range": {
+                "min": 1
+            },
+            "value": {
+                "type": "score",
+                "target": "this",
+                "score": "donpig_ab.asset.item.used_iron_shovel"
+            }
+        },
+        {
+            "condition": "value_check",
+            "range": {
+                "min": 1
+            },
+            "value": {
+                "type": "score",
+                "target": "this",
+                "score": "donpig_ab.asset.item.used_diamond_shovel"
+            }
+        },
+        {
+            "condition": "value_check",
+            "range": {
+                "min": 1
+            },
+            "value": {
+                "type": "score",
+                "target": "this",
+                "score": "donpig_ab.asset.item.used_netherite_shovel"
+            }
+        }
+    ]
+}

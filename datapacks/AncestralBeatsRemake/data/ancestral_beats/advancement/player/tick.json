@@ -1,0 +1,10 @@
+{
+    "criteria": {
+        "tick": {
+            "trigger": "tick"
+        }
+    },
+    "rewards": {
+        "function": "ancestral_beats:player/advancement_tick"
+    }
+}
