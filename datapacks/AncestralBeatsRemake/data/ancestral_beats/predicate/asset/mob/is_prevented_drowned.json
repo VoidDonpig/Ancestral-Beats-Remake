@@ -1,7 +1,0 @@
-{
-    "condition": "entity_properties",
-    "entity": "this",
-    "predicate": {
-        "nbt": "{data:{donpig_ab:{asset:{mob:{prevent_drowned:1b}}}}}"
-    }
-}
