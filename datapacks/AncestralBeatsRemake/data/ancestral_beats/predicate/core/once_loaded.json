@@ -1,9 +1,0 @@
-{
-    "condition": "value_check",
-    "value": {
-        "type": "storage",
-        "path": "once_loaded",
-        "storage": "ancestral_beats:core"
-    },
-    "range": 1
-}
