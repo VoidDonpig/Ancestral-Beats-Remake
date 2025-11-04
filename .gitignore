@@ -4,3 +4,4 @@ MACOSX
 cspell.json
 server-env.sh
 js/
+.vscode/tasks.json
